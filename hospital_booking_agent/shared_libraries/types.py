@@ -14,3 +14,7 @@ class PatientProfile(BaseModel):
     phone: Optional[str] = Field(description="The phone number of the patient.")
     email: Optional[str] = Field(description="The email address of the patient.")
     address: Optional[str] = Field(description="The physical address of the patient.")
+
+class SymtomInputSchema(BaseModel):
+    """Input schema for symptoms."""
+    symptom: str = Field(description="A detailed description of the symptoms the patient is experiencing.")
