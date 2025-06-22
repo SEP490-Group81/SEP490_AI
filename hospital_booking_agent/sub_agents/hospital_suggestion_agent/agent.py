@@ -6,6 +6,7 @@ from google.adk.tools.retrieval.vertex_ai_rag_retrieval import VertexAiRagRetrie
 from vertexai.preview import rag
 from hospital_booking_agent.shared_libraries.types import SymtomInputSchema
 from hospital_booking_agent.shared_libraries.types import json_response_config
+from hospital_booking_agent.tools.hospitals import location_tool
 
 get_symptoms_agent = VertexAiRagRetrieval(
     name="get_symptoms_rag_document",
@@ -33,6 +34,7 @@ location_suggestion_agent = Agent(
     name="location_suggestion_agent",
     description="A sub-agent that suggests locations based on user input",
     instruction=prompt.LOCATION_SUGGESTION_AGENT_INSTR,
+    # tools=[location_tool],
     before_agent_callback=None
 )
 
