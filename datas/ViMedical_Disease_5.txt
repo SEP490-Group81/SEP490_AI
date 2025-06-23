@@ -1,0 +1,4002 @@
+[
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi hiện đang có các triệu chứng như đau bụng dữ dội và nôn mửa. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi đang cảm thấy tiêu chảy và khát nước. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi hay bị đau đầu và chóng mặt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi đang cảm thấy nhịp tim nhanh bất thường và trụy mạch. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi hay bị đau bụng dữ dội và buồn nôn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi đang cảm thấy tiêu chảy nhiều lần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi hay bị sốt và liên tục vã mồ hôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi đang cảm thấy khô môi và đau bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi hay bị chóng mặt và nhịp tim nhanh bất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi đang cảm thấy đau đầu và trụy mạch. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi hay bị buồn nôn và tiêu chảy nhiều lần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi đang cảm thấy đau bụng dữ dội. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi hay bị sốt và khô môi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi đang cảm thấy liên tục vã mồ hôi và đau bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi hay bị nhịp tim nhanh bất thường và trụy mạch. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi đang cảm thấy đau đầu và chóng mặt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi hay bị tiêu chảy nhiều lần và đau bụng dữ dội. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi đang cảm thấy buồn nôn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi hay bị sốt và khô môi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngộ Độc Thực Phẩm",
+    "Question": "Tôi đang cảm thấy liên tục vã mồ hôi và đau bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi hay tạo ra âm thanh rung, lạch cạch khi thở lúc ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và thường xuyên bị ngừng thở khi ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi hay bị giật mình thức giấc và buồn ngủ vào ban ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và thường bị nhức đầu vào buổi sáng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi tăng cân không rõ nguyên nhân và cảm thấy mệt mỏi khi thức dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi hay tỉnh giấc giữa đêm và khó tập trung vào ban ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và cảm thấy khó thở khi ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi thường xuyên thức giấc giữa đêm và cảm thấy mệt mỏi vào ban ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngủ không ngon giấc và hay bị tỉnh giấc bởi tiếng ngáy của chính mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và người ngủ cùng giường thường phàn nàn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và hay bị khô miệng khi thức dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và cảm thấy khó thở, nghẹt mũi khi ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và thường xuyên bị đau họng khi thức dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và cảm thấy mệt mỏi, uể oải vào ban ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và khó tập trung vào công việc. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và thường xuyên bị chóng mặt khi thức dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và người ngủ cùng giường nói rằng tôi hay ngừng thở khi ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và cảm thấy lo lắng về sức khỏe của mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và muốn tìm cách khắc phục tình trạng này. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngủ Ngáy",
+    "Question": "Tôi ngáy to và ảnh hưởng đến giấc ngủ của người khác. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi hay bị ngứa ngáy và nóng rát vùng hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi đang cảm thấy ngứa hậu môn và vùng da xung quanh dày lên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi hay bị đau nhức hậu môn và ngứa ngáy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi đang cảm thấy ngứa hậu môn và xuất hiện vết trầy xước. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi hay bị ngứa ngáy hậu môn kèm ngứa bộ phận sinh dục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi đang cảm thấy ngứa hậu môn và nóng rát. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi hay bị đau nhức hậu môn và vùng da xung quanh dày lên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi đang cảm thấy ngứa hậu môn và xuất hiện vết trầy xước. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi hay bị ngứa ngáy hậu môn kèm máu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi đang cảm thấy ngứa hậu môn và đau nhức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi hay bị ngứa ngáy hậu môn khi đại tiện. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi đang cảm thấy ngứa hậu môn và nóng rát. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi hay bị đau nhức hậu môn và vùng da xung quanh dày lên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi đang cảm thấy ngứa hậu môn và xuất hiện vết trầy xước. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi hay bị ngứa ngáy hậu môn kèm ngứa bộ phận sinh dục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi đang cảm thấy ngứa hậu môn và đau nhức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi hay bị ngứa ngáy hậu môn khi đại tiện và xuất hiện vết trầy xước. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi đang cảm thấy ngứa hậu môn và nóng rát. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi hay bị đau nhức hậu môn và vùng da xung quanh dày lên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ngứa Hậu Môn",
+    "Question": "Tôi đang cảm thấy ngứa hậu môn và xuất hiện vết trầy xước. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi đang mang thai và bị chảy máu âm đạo. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi bị đau bụng dưới đột ngột và kéo dài. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi đang mang thai và cảm thấy đau lưng, co thắt tử cung. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Thai nhi trong bụng tôi ít cử động hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi bị chảy máu âm đạo và đau bụng dữ dội khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi đang mang thai và cảm thấy chóng mặt, muốn ngất xỉu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi bị chảy máu âm đạo và đau bụng từng cơn khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi đang mang thai và cảm thấy bụng cứng, căng tức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi bị ra máu màu đỏ tươi khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi đang mang thai và cảm thấy lo lắng cho sức khỏe của thai nhi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi bị chảy máu âm đạo không rõ nguyên nhân khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi đang mang thai và cảm thấy đau bụng dưới âm ỉ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi bị chảy máu âm đạo sau khi quan hệ tình dục khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi đang mang thai và cảm thấy mệt mỏi, uể oải. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi bị chảy máu âm đạo và đau lưng khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi đang mang thai và cảm thấy lo lắng, bất an. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi bị chảy máu âm đạo và đau bụng dữ dội, cơn đau kéo dài. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi đang mang thai và cảm thấy thai nhi ít đạp hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi bị chảy máu âm đạo và đau bụng quằn quại khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bong Non",
+    "Question": "Tôi đang mang thai và cảm thấy lo lắng cho sức khỏe của bản thân và thai nhi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi đang mang thai 3 tháng cuối và bị chảy máu âm đạo đột ngột. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi bị chảy máu âm đạo không đau khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi đang mang thai và bị ra máu đông cục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi dễ bị chảy máu khi vận động mạnh khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi bị chảy máu sau khi quan hệ tình dục khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi đang mang thai và cảm thấy đau nhói ở tử cung. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi bị chảy máu âm đạo và đau bụng dưới khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi đang mang thai và lo lắng cho sức khỏe của thai nhi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi bị chảy máu âm đạo không rõ nguyên nhân khi mang thai 3 tháng cuối. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi đang mang thai và cảm thấy mệt mỏi, uể oải. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi bị chảy máu âm đạo khi làm việc nặng nhọc khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi đang mang thai và cảm thấy đau bụng từng cơn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi bị chảy máu âm đạo màu đỏ tươi khi mang thai 3 tháng cuối. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi đang mang thai và cảm thấy lo lắng, bất an. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi bị chảy máu âm đạo và đau bụng dữ dội khi mang thai 3 tháng cuối. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi đang mang thai và cảm thấy thai nhi ít đạp hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi bị chảy máu âm đạo và đau bụng quằn quại khi mang thai 3 tháng cuối. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi đang mang thai và cảm thấy lo lắng cho sức khỏe của bản thân và thai nhi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi bị chảy máu âm đạo và đau lưng khi mang thai 3 tháng cuối. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Bám Thấp",
+    "Question": "Tôi đang mang thai và cảm thấy chóng mặt, muốn ngất xỉu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hiện đang có các triệu chứng như xuất huyết âm đạo bất thường với máu có màu đỏ tươi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi đang cảm thấy xuất huyết âm đạo tự nhiên và tự cầm đột ngột. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hay xuất huyết âm đạo tái phát sau vài ngày hoặc vài tuần với lượng máu ngày càng tăng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hiện đang có các triệu chứng như xuất huyết âm đạo kèm các cơn đau bụng do tử cung co thắt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi đang cảm thấy chảy máu âm đạo không đau ở 3 tháng cuối thai kỳ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hay bị ra máu âm đạo màu đỏ tươi, đôi khi có lẫn máu cục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hiện đang có các triệu chứng như xuất huyết âm đạo tự nhiên và tự cầm, sau đó lại bị chảy máu tiếp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi đang cảm thấy đau bụng do tử cung co thắt kèm chảy máu âm đạo. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hay bị chảy máu âm đạo nhiều ở những tháng cuối thai kỳ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hiện đang có các triệu chứng như chảy máu âm đạo không rõ nguyên nhân và tự cầm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi đang cảm thấy ra máu âm đạo màu đỏ tươi, không kèm đau bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hay bị chảy máu âm đạo tái phát nhiều lần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hiện đang có các triệu chứng như đau bụng và chảy máu âm đạo ở 3 tháng cuối thai kỳ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi đang cảm thấy ra máu âm đạo bất thường và lo lắng cho thai nhi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hay bị chảy máu âm đạo tự nhiên và tự cầm sau vài giờ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hiện đang có các triệu chứng như đau bụng do tử cung co bóp và ra máu âm đạo. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi đang cảm thấy ra máu âm đạo nhiều và chóng mặt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hay bị chảy máu âm đạo kèm đau bụng dữ dội. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi hiện đang có các triệu chứng như chảy máu âm đạo và lo lắng cho sức khỏe của thai nhi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhau Tiền Đạo",
+    "Question": "Tôi đang cảm thấy ra máu âm đạo bất thường và mệt mỏi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hiện đang có các triệu chứng như đau hoặc khó chịu ở bụng trên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi đang cảm thấy phình hoặc trướng bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hay cảm thấy no sau khi ăn một lượng nhỏ thức ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hiện đang có các triệu chứng như chán ăn, buồn nôn hoặc nôn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi đang cảm thấy phân sẫm màu hoặc màu hắc ín. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hay bị thiếu máu và mệt mỏi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hiện đang có các triệu chứng như đau bụng âm ỉ kéo dài. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi đang cảm thấy khó tiêu, đầy hơi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hay ợ chua, buồn nôn sau khi ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hiện đang có các triệu chứng như đau bụng dữ dội, phân đen. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi đang cảm thấy mệt mỏi, da xanh xao. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hay ợ nóng, đau thượng vị. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hiện đang có các triệu chứng như đau bụng sau khi ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi đang cảm thấy chán ăn, sụt cân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hay buồn nôn, nôn khan. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hiện đang có các triệu chứng như đau bụng dữ dội, nôn ra máu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi đang cảm thấy mệt mỏi, chóng mặt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hay đau bụng âm ỉ về đêm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi hiện đang có các triệu chứng như khó tiêu, đầy bụng, buồn nôn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn H",
+    "Question": "Tôi đang cảm thấy đau bụng trên, ợ chua, phân đen. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi hiện đang có các triệu chứng như nóng rát khi đi tiểu và tăng tần suất đi tiểu mà không tiểu được nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi đang cảm thấy đau vùng chậu và nước tiểu có màu như nước trà đặc. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi hay tiểu buốt, tiểu gắt và nước tiểu có mùi khó chịu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi hiện đang có các triệu chứng như đau trực tràng và nước tiểu có máu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi đang cảm thấy ớn lạnh, sốt và đau ở phần lưng trên và hai bên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi hay buồn nôn, nôn mửa và nước tiểu đục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi hiện đang có các triệu chứng như sốt cao rét run, kèm theo đau đầu và mệt mỏi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi đang cảm thấy đau vùng hông và có cơn đau quặn thận. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi hay tiểu buốt, tiểu gắt, tiểu có mủ và sốt cao. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi hiện đang có các triệu chứng như mắc tiểu thường xuyên nhưng mỗi lần tiểu lại ít và nóng rát khi tiểu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi đang cảm thấy vùng chậu đau và sốt nhẹ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi hay nước tiểu có thể có máu và mùi khó chịu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi hiện đang có các triệu chứng như tiểu khó, tiểu gấp, đi tiểu thường xuyên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi đang cảm thấy sốt hay ớn lạnh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi hay đau khi quan hệ tình dục và dịch tiết âm đạo bất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi hiện đang có các triệu chứng như cảm giác nóng rát khi đi tiểu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi đang cảm thấy đau khi xuất tinh hay nổi hạch ở bẹn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Tôi hay xuất hiện máu hoặc tinh dịch trong nước tiểu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Con gái tôi 5 tuổi hay kêu đau bụng và tiểu buốt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Khuẩn Đường Tiết Niệu",
+    "Question": "Con trai tôi 4 tuổi thường xuyên đi tiểu và sốt nhẹ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hiện đang có các triệu chứng như sốt kéo dài, có thể sốt cao kèm cơ thể rét run. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi đang cảm thấy rối loạn tiêu hóa hoặc có các biểu hiện tiêu chảy, đầy hơi, chướng bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hay bị phát ban đỏ, chàm, dị ứng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hiện đang có các triệu chứng như sụt cân, suy dinh dưỡng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi đang cảm thấy ngứa vùng hậu môn, đặc biệt là vào ban đêm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hay bị thiếu máu, mệt mỏi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hiện đang có các triệu chứng như thay đổi tính cách, trở nên lo lắng, bất an. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi đang cảm thấy kém tập trung, suy giảm trí nhớ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hay bị sốt, đau bụng, tiêu chảy, chán ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hiện đang có các triệu chứng như táo bón, đầy hơi, buồn nôn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi đang cảm thấy sưng tấy, tổn thương da, viêm nhiễm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hay bị chán ăn, đau bụng, tiêu chảy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hiện đang có các triệu chứng như ngứa hậu môn về đêm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi đang cảm thấy chóng mặt, da xanh xao. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hay lo lắng, bất an, khó tập trung. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hiện đang có các triệu chứng như suy giảm trí nhớ, mệt mỏi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi đang cảm thấy sốt, nổi mẩn ngứa. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hay đau bụng, tiêu chảy kéo dài. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi hiện đang có các triệu chứng như sụt cân, chán ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ký Sinh Trùng",
+    "Question": "Tôi đang cảm thấy ngứa hậu môn, đau bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hiện đang có các triệu chứng như khát nước và đi tiểu thường xuyên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi đang cảm thấy thở nhanh và sâu, kèm theo da và miệng khô. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hay bị mặt đỏ bừng và hơi thở có mùi trái cây. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hiện đang có triệu chứng đau đầu và cứng cơ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi đang cảm thấy mệt mỏi và buồn nôn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hay bị đau bụng và nôn mửa. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hiện đang có các triệu chứng như lượng đường trong máu cao. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi đang cảm thấy lú lẫn và mất phương hướng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hay bị yếu cơ và khó vận động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hiện đang có các triệu chứng như mất ý thức và hôn mê. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi đang cảm thấy tim đập nhanh và thở gấp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hay bị tụt huyết áp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hiện đang có các triệu chứng như da khô và nhăn nheo. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi đang cảm thấy mắt trũng sâu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hay bị đau bụng dữ dội. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hiện đang có các triệu chứng như buồn nôn và nôn khan. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi đang cảm thấy khó thở và thở khò khè. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hay bị co giật. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi hiện đang có các triệu chứng như hôn mê và tử vong nếu không được điều trị kịp thời. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Toan Ceton",
+    "Question": "Tôi đang cảm thấy mệt mỏi và kiệt sức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hiện đang có vết thương ở bàn chân bị đỏ và lan rộng, kèm theo đau và nhạy cảm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi đang cảm thấy sốt, ớn lạnh và đổ mồ hôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hay bị hụt hơi và nghẹt mũi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hiện đang có vết loét mới xuất hiện ở bàn chân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi đang cảm thấy tê bì và mất cảm giác ở bàn chân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hay bị mô đen bao quanh vết loét ở bàn chân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hiện đang có dịch tiết và đau nhức ở vết loét bàn chân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi đang cảm thấy sốt cao và cổ cứng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hay bị sưng tấy và nóng rát ở bàn chân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hiện đang có các triệu chứng như hoại tử một phần bàn chân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi đang cảm thấy đau nhức lan lên cẳng chân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hay bị vết thương ở bàn chân lâu lành. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hiện đang có các triệu chứng như sốt, ớn lạnh và sưng hạch bạch huyết. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi đang cảm thấy mệt mỏi và khó chịu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hay bị thay đổi màu sắc da ở bàn chân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hiện đang có các triệu chứng như loét bàn chân chảy mủ và có mùi hôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi đang cảm thấy đau nhức xương bàn chân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hay bị móng chân dày và biến dạng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi hiện đang có các triệu chứng như tê bì, mất cảm giác và đau nhức ở bàn chân về đêm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Bàn Chân Tiểu Đường",
+    "Question": "Tôi đang cảm thấy khó khăn khi đi lại. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hiện đang có các triệu chứng như đau hạ vị, sốt nhẹ và sản dịch có mùi hôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi đang cảm thấy đau ở một bên vú kèm theo sốt và ớn lạnh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hay bị đau, cứng và nóng đỏ ở cả hai bên vú, kèm theo mệt mỏi và đau đầu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hiện đang có da đỏ, tiết dịch và sưng đau xung quanh vết mổ lấy thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi đang cảm thấy đau và vết khâu tầng sinh môn có dấu hiệu sắp bung. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hay bị tiểu khó, tiểu buốt và cảm giác phải đi tiểu thường xuyên nhưng tiểu ra rất ít. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hiện đang có nước tiểu nhiều bọt và có lẫn máu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi đang cảm thấy đau hạ vị kèm theo sốt cao và ớn lạnh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hay bị sản dịch có mùi hôi và màu sắc bất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hiện đang có vết mổ lấy thai bị sưng tấy và chảy mủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi đang cảm thấy đau nhức vùng xương chậu và sốt cao. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hay bị ra máu âm đạo bất thường sau sinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hiện đang có dịch tiết âm đạo có mùi hôi và màu vàng xanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi đang cảm thấy đau khi đi tiểu và tiểu ra máu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hay bị đau lưng và đau bụng dưới sau sinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hiện đang có các triệu chứng như sốt, ớn lạnh, mệt mỏi và chán ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi đang cảm thấy chóng mặt và choáng váng sau sinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hay bị buồn nôn và nôn sau sinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi hiện đang có vết rạch tầng sinh môn bị nhiễm trùng và sưng đau. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Hậu Sản",
+    "Question": "Tôi đang cảm thấy đau nhức cơ thể và khó chịu sau sinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hiện đang có các triệu chứng như đau bụng, tiêu chảy và buồn nôn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi đang cảm thấy sốt và ớn lạnh, kèm theo chuột rút. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hay bị đau đầu và xuất hiện máu trong phân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hiện đang có triệu chứng nôn mửa và tiêu chảy nặng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi đang cảm thấy đau bụng dữ dội và mất nước. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hay bị tiêu chảy ra máu và có mùi hôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hiện đang có triệu chứng sốt cao và co giật. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi đang cảm thấy mệt mỏi và chán ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hay bị đầy hơi và khó tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hiện đang có các triệu chứng như buồn nôn, nôn và đau bụng sau khi ăn thức ăn lạ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi đang cảm thấy đau bụng quặn từng cơn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hay bị tiêu chảy kéo dài hơn 3 ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hiện đang có triệu chứng mất nước và khô miệng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi đang cảm thấy đau rát hậu môn khi đi tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hay bị phân có lẫn chất nhầy và máu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hiện đang có các triệu chứng như sốt, ớn lạnh, đau bụng và tiêu chảy sau khi đi du lịch. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi đang cảm thấy đau bụng dữ dội và buồn nôn sau khi ăn hải sản. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hay bị tiêu chảy và nôn mửa sau khi uống nước lã. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi hiện đang có triệu chứng đau bụng, tiêu chảy và sốt sau khi tiếp xúc với người bị bệnh đường ruột. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Trùng Đường Ruột",
+    "Question": "Tôi đang cảm thấy mệt mỏi, chán ăn và sụt cân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hiện đang có các triệu chứng như tiêu chảy và đau quặn bụng sau khi ăn thịt sống. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi đang cảm thấy sốt và buồn nôn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hay bị nôn mửa và ớn lạnh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hiện đang có triệu chứng đau đầu và xuất hiện máu trong phân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi đang cảm thấy mệt mỏi và chán ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hay bị tiêu chảy kéo dài và mất nước. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hiện đang có các triệu chứng như đau bụng dữ dội và chuột rút. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi đang cảm thấy buồn nôn và nôn khan sau khi ăn trứng chưa chín. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hay bị sốt cao và co giật. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hiện đang có triệu chứng phân lỏng và có mùi hôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi đang cảm thấy đau rát hậu môn khi đi tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hay bị đầy hơi và khó tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hiện đang có các triệu chứng như đau bụng, tiêu chảy và sốt sau khi tiếp xúc với bò sát. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi đang cảm thấy buồn nôn và nôn mửa sau khi uống sữa chưa tiệt trùng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hay bị đau đầu và chóng mặt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hiện đang có các triệu chứng như mất nước và khô miệng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi đang cảm thấy đau nhức cơ thể và mệt mỏi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hay bị sụt cân và suy nhược cơ thể. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi hiện đang có các triệu chứng như tiêu chảy ra máu và sốt cao sau khi đi du lịch. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Vi Khuẩn Salmonella",
+    "Question": "Tôi đang cảm thấy đau bụng dữ dội và buồn nôn sau khi ăn thức ăn đường phố. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hiện đang có các triệu chứng như đau cơ, nốt dưới da có thể sờ thấy được. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi đang cảm thấy động kinh co giật. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hay nhìn mờ, nhìn đôi, giảm thị lực, chảy nước mắt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hiện đang có các triệu chứng như nhức đầu, tăng áp lực nội sọ, rối loạn tâm thần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi đang cảm thấy động kinh, nhức đầu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hay co giật cơ, đau đầu dữ dội. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hiện đang có các triệu chứng như sụp mí, nhìn đôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi đang cảm thấy đau nhức hốc mắt, giảm thị lực. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hay co giật, rối loạn tâm thần, đau đầu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hiện đang có các triệu chứng như động kinh, tăng áp lực nội sọ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi đang cảm thấy đau cơ, nổi u cục dưới da. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hay động kinh co giật, đau đầu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hiện đang có các triệu chứng như nhìn mờ, đau nhức mắt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi đang cảm thấy giảm thị lực, chảy nước mắt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hay đau đầu dữ dội, rối loạn tâm thần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hiện đang có các triệu chứng như co giật, tăng áp lực nội sọ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi đang cảm thấy đau cơ, nổi hạch sưng đau. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hay động kinh, nhìn mờ, đau đầu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi hiện đang có các triệu chứng như giảm thị lực, rối loạn tâm thần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhiễm Ấu Trùng Sán Dây Lợn",
+    "Question": "Tôi đang cảm thấy đau nhức hốc mắt, co giật. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi tình cờ phát hiện có khối u ở vùng cổ khi soi gương. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi cảm thấy khó nuốt và khó thở. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi bị ho và khàn giọng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi thấy vùng cổ có khối to khi cài cúc áo. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi bị đau ở vùng cổ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi đi khám sức khỏe tổng quát và phát hiện có nhân tuyến giáp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi chụp CT vùng cổ và phát hiện có bất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi xét nghiệm chức năng tuyến giáp và kết quả bất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi cảm thấy mệt mỏi và tăng cân không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi hay bị rụng tóc và da khô. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi cảm thấy khó chịu ở vùng cổ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi thấy vùng cổ sưng to hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi nuốt thức ăn khó khăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi thở dốc và khó khăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi nói chuyện khó khăn và giọng nói bị khàn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi cảm thấy lo lắng về sức khỏe của mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi muốn đi khám sức khỏe tổng quát. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi muốn kiểm tra chức năng tuyến giáp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi thấy vùng cổ có khối u di động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhân Tuyến Giáp",
+    "Question": "Tôi muốn tìm hiểu thêm về bệnh nhân tuyến giáp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi hay bị hồi hộp và tim đập nhanh đột ngột. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi đang cảm thấy chóng mặt, lâng lâng và tim đập nhanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi bị ngất xỉu, bất tỉnh và tim đập nhanh không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi hay cảm thấy đau ngực và hụt hơi kèm theo tim đập nhanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi bị hồi hộp, chóng mặt và tim đập nhanh khi gắng sức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi đang cảm thấy lâng lâng, ngất xỉu và tim đập nhanh sau khi vận động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi bị đau ngực, hụt hơi và tim đập nhanh mà không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi hay cảm thấy hồi hộp, ngất xỉu và tim đập nhanh khi thay đổi tư thế. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi bị chóng mặt, đau ngực và tim đập nhanh khi căng thẳng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi hay cảm thấy lâng lâng, hụt hơi và tim đập nhanh khi thức dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi bị hồi hộp, ngất xỉu và tim đập nhanh sau khi ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi hay cảm thấy chóng mặt, đau ngực và tim đập nhanh khi uống rượu bia. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi bị lâng lâng, hụt hơi và tim đập nhanh khi hút thuốc. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi hay cảm thấy hồi hộp, ngất xỉu và tim đập nhanh khi hoạt động mạnh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Tôi bị chóng mặt, đau ngực và tim đập nhanh mà không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Con tôi hay quấy khóc và bú kém kèm theo thở nhanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Bé nhà tôi thở nhanh và bú kém, kèm theo tim đập nhanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Con tôi quấy khóc, thở nhanh và tim đập nhanh không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Bé nhà tôi bú kém, tim đập nhanh và thở nhanh sau khi bú. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Nhĩ",
+    "Question": "Con tôi quấy khóc, thở nhanh và tim đập nhanh khi ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi hiện đang có các triệu chứng như chóng mặt, lâng lâng và tim đập nhanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi đang cảm thấy đau ngực và hụt hơi kèm theo tim đập nhanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi hay bị đánh trống ngực và ngất xỉu đột ngột. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi cảm thấy chóng mặt, lâng lâng và hụt hơi, kèm theo tim đập rất nhanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi bị đau ngực và ngất xỉu, tim đập nhanh và không đều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi hay bị chóng mặt, hụt hơi và tim đập nhanh khi gắng sức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi đang cảm thấy đau ngực, hụt hơi và tim đập nhanh sau khi vận động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi bị đánh trống ngực, ngất xỉu và tim đập nhanh mà không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi hay cảm thấy lâng lâng, chóng mặt và tim đập nhanh khi thay đổi tư thế. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi bị đau ngực, hụt hơi và ngất xỉu, kèm theo tim đập nhanh và không đều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi hiện đang có các triệu chứng như tim đập nhanh, đánh trống ngực và hụt hơi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi đang cảm thấy chóng mặt, lâng lâng và ngất xỉu, kèm theo tim đập nhanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi hay bị đau ngực, hụt hơi và tim đập nhanh khi căng thẳng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi cảm thấy tim đập nhanh, đánh trống ngực và ngất xỉu đột ngột khi ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi bị chóng mặt, lâng lâng và hụt hơi kèm theo tim đập nhanh khi thức dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi hay bị đau ngực, đánh trống ngực và tim đập nhanh sau khi ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi cảm thấy tim đập nhanh, hụt hơi và ngất xỉu khi uống rượu bia. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi bị chóng mặt, lâng lâng và đánh trống ngực kèm theo tim đập nhanh khi hút thuốc. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi hay bị đau ngực, hụt hơi và ngất xỉu kèm theo tim đập nhanh khi hoạt động mạnh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhịp Nhanh Thất",
+    "Question": "Tôi cảm thấy tim đập nhanh, đánh trống ngực và chóng mặt mà không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi hiện đang có các triệu chứng như đau ngực và khó thở. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi đang cảm thấy đau dạ dày, khó tiêu và ợ chua. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi bị buồn nôn, khó chịu và chóng mặt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi hay bị lâng lâng, ngất xỉu và tim đập nhanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi cảm thấy khó chịu với nhịp tim, tim bỏ nhịp hoặc tăng thêm nhịp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi bị mệt mỏi, khó thở và mất ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi hay bị đau lan tỏa đến hàm, cổ, vai, cánh tay, lưng hoặc bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi cảm thấy buồn nôn và ói mửa kèm theo đau ngực. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi bị đau ngực, khó thở và đau dạ dày sau khi ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi hay bị khó tiêu, ợ chua và buồn nôn khi uống rượu bia. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi cảm thấy chóng mặt, lâng lâng và tim đập nhanh khi hút thuốc. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi bị khó chịu với nhịp tim, tim bỏ nhịp và tăng thêm nhịp khi hoạt động mạnh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi hay bị mệt mỏi, khó thở và mất ngủ trước khi đau tim. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi cảm thấy đau lan tỏa đến hàm, cổ, vai, cánh tay, lưng hoặc bụng khi gắng sức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi bị buồn nôn và ói mửa kèm theo đau ngực sau khi vận động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi hay bị đau ngực, khó thở và đau dạ dày khi căng thẳng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi cảm thấy khó tiêu, ợ chua và buồn nôn khi thức dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi bị chóng mặt, lâng lâng và tim đập nhanh sau khi ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi hay bị khó chịu với nhịp tim, tim bỏ nhịp và tăng thêm nhịp mà không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Không ST Chênh Lên",
+    "Question": "Tôi cảm thấy mệt mỏi, khó thở và mất ngủ trước khi đau tim. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi hiện đang có các triệu chứng như đau ngực, khó thở và buồn nôn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi đang cảm thấy chóng mặt, rối loạn nhịp tim và tụt huyết áp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi bị phù động mạch ngoại biên cấp tính và căng giãn tĩnh mạch. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi hay bị giãn tĩnh mạch, phổi trong và hạ huyết áp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi cảm thấy đau ngực, co thắt và khó thở. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi bị rối loạn nhịp tim, tụt huyết áp và phù động mạch ngoại biên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi hay bị căng giãn tĩnh mạch, rối loạn chức năng thất phải và hạ huyết áp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi cảm thấy đau ngực, khó thở và buồn nôn khi gắng sức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi bị chóng mặt, rối loạn nhịp tim và tụt huyết áp sau khi vận động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi hay bị phù động mạch ngoại biên, căng giãn tĩnh mạch và hạ huyết áp khi thay đổi tư thế. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi cảm thấy đau ngực, khó thở và buồn nôn khi căng thẳng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi bị chóng mặt, rối loạn nhịp tim và tụt huyết áp sau khi ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi hay bị phù động mạch ngoại biên, căng giãn tĩnh mạch và hạ huyết áp khi uống rượu bia. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi cảm thấy đau ngực, khó thở và buồn nôn khi hút thuốc. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi bị chóng mặt, rối loạn nhịp tim và tụt huyết áp khi hoạt động mạnh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi hay bị phù động mạch ngoại biên, căng giãn tĩnh mạch và hạ huyết áp mà không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi cảm thấy đau ngực, khó thở và buồn nôn khi ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi bị chóng mặt, rối loạn nhịp tim và tụt huyết áp khi thức dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi hay bị phù động mạch ngoại biên, căng giãn tĩnh mạch và hạ huyết áp sau khi ngủ dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Cơ Tim Thất Phải",
+    "Question": "Tôi cảm thấy đau ngực, khó thở và buồn nôn mà không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi hiện đang có các triệu chứng như liệt mặt, miệng méo và nhân trung lệch sang một bên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi đang cảm thấy yếu liệt một tay và chân, kèm theo nói khó. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi bị liệt nửa người, nói khó và giảm cảm giác. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi hay bị nuốt khó, chóng mặt, buồn nôn và nôn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi cảm thấy thất điều, đi lại khó khăn và mù một mắt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi bị đau đầu, co giật và hôn mê đột ngột. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi hay bị liệt mặt, nói khó và giảm cảm giác nửa người. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi cảm thấy yếu liệt tay chân, nuốt khó và chóng mặt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi bị mù một mắt, đau đầu và co giật. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi hay bị bán manh, hôn mê và liệt nửa người. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi cảm thấy đau đầu, buồn nôn, nôn và liệt nửa người khi ngủ dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi bị nói khó, yếu liệt tay chân và giảm cảm giác nửa người. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi hay bị chóng mặt, buồn nôn, nôn và thất điều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi cảm thấy mù một mắt, đau đầu và co giật đột ngột. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi bị bán manh, hôn mê và liệt nửa người sau khi ngủ dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi hay bị đau đầu, nôn và liệt nửa người khi thức dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi cảm thấy buồn nôn, nôn và rối loạn ý thức đột ngột. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi bị liệt nửa người, nói khó và giảm cảm giác sau khi ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi hay bị nuốt khó, chóng mặt và thất điều khi thức dậy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nhồi Máu Não",
+    "Question": "Tôi cảm thấy mù một mắt, đau đầu và co giật sau khi ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hiện đang có các triệu chứng như da xuất hiện những mảng sẫm màu ở hai bên má và trán, đặc biệt là sau khi tiếp xúc với ánh nắng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi đang cảm thấy tự ti vì làn da xuất hiện nhiều vết nám, Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hay thấy các mảng nám có màu sắc khá đậm và kích thước không đồng đều ở vùng mũi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hiện đang có các triệu chứng như nám da ở hai bên gò má và rối loạn kinh nguyệt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi đang cảm thấy lo lắng vì các vết nám ngày càng lan rộng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hay thấy da xuất hiện nhiều đốm nâu ở vùng trán và môi, Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hiện đang có các triệu chứng như nám da và mụn trứng cá. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi đang cảm thấy da sạm màu và xuất hiện nhiều vết nám sau khi đi nắng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hay thấy các mảng nám đậm màu ở hai bên má, Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hiện đang có các triệu chứng như nám da và tàn nhang. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi đang cảm thấy khó chịu vì nám da khiến gương mặt kém sắc. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hay thấy các đốm nám lan rộng từ vùng má sang cổ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hiện đang có các triệu chứng như nám da và đồi mồi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi đang cảm thấy lo lắng vì không biết cách điều trị nám da hiệu quả. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hay thấy nám da xuất hiện nhiều hơn sau khi mang thai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hiện đang có các triệu chứng như nám da và da khô ráp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi đang cảm thấy tự ti vì nám da khiến tôi ngại giao tiếp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hay thấy các vết nám đậm màu ở vùng cánh tay và cổ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi hiện đang có các triệu chứng như nám da và da không đều màu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Da",
+    "Question": "Tôi đang cảm thấy lo lắng vì nám da ảnh hưởng đến thẩm mỹ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hiện đang có các triệu chứng như da xuất hiện các đốm nhỏ màu vàng nhạt ở hai bên gò má và trán. Chu kỳ kinh nguyệt của tôi cũng không đều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi đang cảm thấy lo lắng, buồn bực và dễ cáu gắt. Da dạo này cũng sạm màu và xuất hiện nhiều vết nám. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hay thấy các đốm nám trên da lan rộng ra, kèm theo đó là dấu hiệu khô âm đạo và đau rát khi quan hệ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hiện đang có các triệu chứng như nám da ở mũi và cánh mũi, kèm theo tim đập nhanh và tính tình thất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi đang cảm thấy da mất độ đàn hồi, xuất hiện nếp nhăn và nám da ở vùng thái dương. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hay thấy các nốt nám kích thước không đều ở trên trán. Kinh nguyệt của tôi cũng ngày càng ít dần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hiện đang có các triệu chứng như nám da đậm màu ở hai bên gò má và chu kỳ kinh nguyệt thay đổi thất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi đang cảm thấy mệt mỏi, da dẻ sạm đen và xuất hiện nám. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hay thấy các đốm nám lan rộng sang vùng da khác, kèm theo dấu hiệu buồng trứng và cổ tử cung nhỏ dần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hiện đang có các triệu chứng như nám da ở vùng mũi, kèm theo rối loạn giấc ngủ và tâm trạng bất ổn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi đang cảm thấy da khô ráp, xuất hiện nám và dấu hiệu lão hóa sớm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hay thấy các nốt nám đậm màu ở trên trán, kèm theo cảm giác đau rát khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hiện đang có các triệu chứng như nám da lan rộng, kèm theo rối loạn kinh nguyệt và giảm ham muốn tình dục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi đang cảm thấy cơ thể mệt mỏi, da xuất hiện nám và dấu hiệu lão hóa. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hay thấy các đốm nám màu vàng nhạt ở hai bên gò má, kèm theo dấu hiệu suy giảm nội tiết tố nữ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hiện đang có các triệu chứng như nám da, da khô sạm và rối loạn kinh nguyệt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi đang cảm thấy tâm trạng thất thường, dễ cáu gắt và xuất hiện nám da. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hay thấy các nốt nám đậm màu, kèm theo dấu hiệu suy giảm chức năng buồng trứng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi hiện đang có các triệu chứng như nám da lan rộng, kèm theo các dấu hiệu tiền mãn kinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nám Nội Tiết",
+    "Question": "Tôi đang cảm thấy cơ thể suy nhược, da xuất hiện nám và dấu hiệu lão hóa. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi hiện đang có các triệu chứng như đầu to bất thường và da đầu mỏng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi đang cảm thấy khó chịu, nôn mửa và đầu to lên nhanh chóng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi hay bị đau đầu, nôn vào buổi sáng và chậm phát triển. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi thấy mờ mắt và khó đi lại. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi bị béo phì và chậm dậy thì. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi bị đau đầu, mệt mỏi và tiểu nhiều lần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi thấy khó khăn khi đi lại và giữ thăng bằng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi bị suy giảm trí nhớ và khó tập trung. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi bị tiểu không kiểm soát và mất trí nhớ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi thấy khó khăn khi đi lại và thường xuyên bị ngã. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi bị đau đầu, buồn nôn và mờ mắt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi thấy thay đổi dáng đi và khó khăn khi phối hợp động tác. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi bị tăng cân bất thường và chậm phát triển. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi thấy đầu to hơn bình thường và hay bị đau đầu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi bị nôn mửa nhiều vào buổi sáng và mệt mỏi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi thấy mắt mờ đi và nhìn đôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi bị rối loạn vận động và khó khăn khi đi lại. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi thấy cơ thể phát triển bất thường và chậm dậy thì. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi bị đau đầu, suy giảm trí nhớ và tiểu nhiều lần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Não Úng Thủy",
+    "Question": "Tôi thấy khó khăn khi đi lại và mất kiểm soát bàng quang. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi hiện đang có các triệu chứng như chán ăn, mệt mỏi và đau tức vùng gan. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi đang cảm thấy da và mắt của mình vàng hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi hay bị ngứa ngáy khó chịu và nổi mẩn đỏ trên da. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi nhận thấy phân của mình có màu xám nhạt và nước tiểu màu vàng sậm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Bụng của tôi to lên bất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi thấy buồn nôn và khó chịu sau khi ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi bị chảy máu chân răng và cơ thể suy nhược. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi mất ngủ và khó tập trung. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi lo lắng về tình trạng gan của mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi muốn tìm hiểu về nguyên nhân gây ra nóng gan. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi cần tư vấn về cách điều trị nóng gan. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi muốn biết về các biện pháp phòng ngừa nóng gan. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi thắc mắc về chế độ ăn uống phù hợp cho người bị nóng gan. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi muốn biết về các loại thảo dược tốt cho gan. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi lo lắng về biến chứng của nóng gan. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi muốn kiểm tra chức năng gan. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi cảm thấy mệt mỏi và khó chịu kéo dài. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi thấy da dẻ sạm đen và nổi mụn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi muốn tìm hiểu về các dấu hiệu cảnh báo bệnh gan nặng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nóng Gan",
+    "Question": "Tôi lo lắng về sức khỏe của mình và muốn được tư vấn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hiện đang có các triệu chứng như ngứa tai và chảy dịch tai có mùi hôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi đang cảm thấy đau tai khi kéo vành tai hoặc ấn vào nắp bình tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hay bị ù tai và cảm giác đầy tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hiện đang có các triệu chứng như giảm thính lực và ngứa tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi đang cảm thấy đau nhức trong tai và chảy dịch màu vàng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hay bị ngứa tai về đêm và khó ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hiện đang có các triệu chứng như đau tai và sốt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi đang cảm thấy tai bị sưng và chảy dịch có mùi hôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hay bị ngứa tai và chảy máu tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hiện đang có các triệu chứng như ù tai và chóng mặt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi đang cảm thấy đau nhức lan từ tai xuống hàm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hay bị ngứa tai sau khi đi bơi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hiện đang có các triệu chứng như đau tai và nổi hạch ở cổ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi đang cảm thấy tai bị tắc và nghe kém. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hay bị ngứa tai và chảy dịch màu trắng đục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hiện đang có các triệu chứng như đau tai và chảy dịch có lẫn máu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi đang cảm thấy khó chịu và ngứa ngáy trong tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hay bị ù tai và nghe thấy tiếng ve kêu trong tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi hiện đang có các triệu chứng như đau tai và đau đầu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nấm Ống Tai Ngoài",
+    "Question": "Tôi đang cảm thấy tai bị sưng và nóng rát. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi hiện đang có một nốt ruồi màu nâu, hình tròn, đường kính nhỏ hơn 6mm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi đang cảm thấy nốt ruồi của mình hơi gồ lên và có màu sắc đồng nhất. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi hay bị nốt ruồi bẩm sinh có kích thước lớn hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi nhận thấy nốt ruồi của mình có hình bầu dục và bờ viền rõ ràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Nốt ruồi của tôi có màu hồng và bề mặt nhẵn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi thấy nốt ruồi của mình xuất hiện sau 25 tuổi và có hình dạng không đối xứng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Nốt ruồi của tôi có đường viền không đều và màu sắc không đồng nhất. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi lo lắng vì nốt ruồi của mình lớn hơn 6mm và có màu sắc thay đổi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi thấy nốt ruồi của mình ngày càng nhô cao và gây ngứa ngáy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Nốt ruồi của tôi chảy máu và đóng vảy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi thấy nốt ruồi của mình đột nhiên mềm đi và rụng lông. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi có nhiều nốt ruồi ở vùng da tiếp xúc với ánh nắng mặt trời. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi lo lắng về nguy cơ ung thư da từ nốt ruồi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi muốn tìm hiểu cách phân biệt nốt ruồi lành tính và ác tính. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi cần tư vấn về việc có nên loại bỏ nốt ruồi hay không. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi muốn biết về các phương pháp điều trị nốt ruồi ác tính. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi thắc mắc về sự khác biệt giữa nốt ruồi và tàn nhang. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi muốn biết về các biện pháp phòng ngừa ung thư da. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi lo lắng về sự thay đổi của nốt ruồi trên cơ thể mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nốt Ruồi",
+    "Question": "Tôi muốn kiểm tra da liễu để đánh giá tình trạng nốt ruồi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi hiện đang có các triệu chứng như đau nhói khi đi đại tiện và có máu trong phân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi đang cảm thấy vùng da xung quanh hậu môn bị rách và ngứa ngáy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi hay bị táo bón và cục phân đầu tiên luôn cứng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi nhận thấy hậu môn của mình có khối u nhỏ gần vết rách. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi bị đau rát hậu môn kéo dài cả ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi thấy máu dính trên giấy vệ sinh sau khi đi đại tiện. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Hậu môn của tôi nóng rát và khó chịu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi lo lắng về tình trạng nứt kẽ hậu môn của mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi muốn tìm hiểu về nguyên nhân gây ra nứt kẽ hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi cần tư vấn về cách điều trị nứt kẽ hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi muốn biết về các biện pháp phòng ngừa nứt kẽ hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi thắc mắc về chế độ ăn uống phù hợp cho người bị nứt kẽ hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi muốn biết về các loại thuốc điều trị nứt kẽ hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi lo lắng về biến chứng của nứt kẽ hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi muốn được thăm khám và chẩn đoán chính xác tình trạng của mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi cảm thấy khó chịu và đau đớn khi đi đại tiện. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi thấy máu nhỏ giọt xuống bồn cầu sau khi đi đại tiện. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi muốn tìm hiểu về các phương pháp phẫu thuật điều trị nứt kẽ hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi lo lắng về khả năng tái phát của nứt kẽ hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nứt Kẽ Hậu Môn",
+    "Question": "Tôi muốn được tư vấn về cách chăm sóc hậu môn sau khi điều trị nứt kẽ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi hiện đang có các triệu chứng như ngực to hơn bình thường và đau ngực. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi đang cảm thấy ngực sưng và đau khi sờ vào. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi hay bị đau ngực, đặc biệt là khi còn thanh thiếu niên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi nhận thấy mô vú của mình bị sưng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Núm vú của tôi rất nhạy cảm khi cọ xát với quần áo. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Ngực của tôi ngày càng to ra và có cảm giác căng tức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi cảm thấy vùng ngực của mình phát triển bất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi bị đau nhức ở vùng ngực và núm vú. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi thấy ngực mình to hơn so với những người nam khác. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi lo lắng về sự phát triển bất thường của ngực mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi thấy khó chịu khi mặc áo do ngực bị cọ xát. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi nhận thấy ngực mình mềm và nhạy cảm hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi cảm thấy tự ti về kích thước ngực của mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi muốn tìm hiểu về nguyên nhân gây ra tình trạng ngực to ở nam giới. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi lo lắng về sức khỏe của mình khi thấy ngực phát triển bất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi cần tư vấn về cách điều trị tình trạng ngực to ở nam giới. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi muốn biết liệu tình trạng ngực to có ảnh hưởng đến sức khỏe sinh sản của tôi không. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi thấy ngượng ngùng khi ngực mình lớn hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi muốn tìm hiểu về các phương pháp giảm kích thước ngực cho nam giới. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Nữ Hóa Tuyến Vú",
+    "Question": "Tôi cảm thấy lo lắng và muốn tìm hiểu thêm về tình trạng nữ hóa tuyến vú. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hiện đang có các triệu chứng như sốt nhẹ và ho khan. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi đang cảm thấy người hơi mệt mỏi và đau nhức cơ thể. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hay bị ho, kèm theo sốt nhẹ và cảm giác ớn lạnh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hiện đang có triệu chứng giống như cúm, với sốt, ho và đau nhức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi đang cảm thấy mệt mỏi, đau họng và có chút ho. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hay bị hắt hơi, sổ mũi và cảm thấy người hơi nóng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hiện đang bị ho khan kéo dài và hơi khó thở. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi đang cảm thấy người ớn lạnh, đau đầu và mất vị giác. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hay bị sốt về chiều, kèm theo mệt mỏi và đau họng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hiện đang bị đau nhức cơ, mệt mỏi và có ít dịch nhầy ở mũi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi đang cảm thấy người nóng ran, ho nhiều và đau đầu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hay bị nghẹt mũi, chảy nước mũi và hắt hơi liên tục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hiện đang có triệu chứng ho khan, đau họng và mất khứu giác. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi đang cảm thấy mệt mỏi, chán ăn và hơi khó thở. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hay bị sốt nhẹ, ho có đờm và đau nhức khắp người. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hiện đang bị sổ mũi, đau họng và cảm thấy người yếu ớt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi đang cảm thấy chóng mặt, buồn nôn và hơi sốt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hay bị ho khan kéo dài, kèm theo đau ngực nhẹ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi hiện đang bị mất vị giác, đau họng và có ít dịch nhầy ở mũi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Omicron Tàng Hình",
+    "Question": "Tôi đang cảm thấy ớn lạnh, sốt cao và đau nhức cơ dữ dội. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Tôi thấy da vùng ngực bị đỏ, ngứa và đau. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Tôi bị phát ban ở ngực kèm theo ho, sổ mũi và đau họng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Da vùng ngực của tôi bị sưng, nóng và đau. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Tôi bị phát ban ngứa ở ngực và lan ra các vùng xung quanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Vùng da ngực của tôi bị nổi mẩn đỏ và có mủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Tôi bị phát ban ở ngực kèm theo sốt và ớn lạnh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Da ngực của tôi bị khô, bong tróc và ngứa. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Tôi bị phát ban ở ngực sau khi sử dụng sản phẩm chăm sóc da mới. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Vùng da ngực của tôi bị nổi mẩn đỏ và có dịch tiết ra. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Tôi bị phát ban ở ngực kèm theo đau nhức xương khớp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Da ngực của tôi bị nổi mẩn đỏ và có vảy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Tôi bị phát ban ở ngực sau khi tiếp xúc với ánh nắng mặt trời. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Vùng da ngực của tôi bị sưng, nóng, đỏ và đau. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Tôi bị phát ban ngứa ở ngực và lan rộng ra lưng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Da ngực của tôi bị nổi mẩn đỏ và có mụn nước. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Tôi bị phát ban ở ngực kèm theo sốt và mệt mỏi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Da ngực của tôi bị khô, nứt nẻ và ngứa. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Tôi bị phát ban ở ngực sau khi mặc áo ngực mới. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Vùng da ngực của tôi bị nổi mẩn đỏ và có vết loét. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phát Ban Ở Ngực",
+    "Question": "Tôi bị phát ban ở ngực kèm theo khó thở. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi hiện đang có các triệu chứng như tiểu nhiều lần trong đêm và cảm giác mót tiểu liên tục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi đang cảm thấy tia nước tiểu yếu và ngắt quãng, đôi khi còn bị bí tiểu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi hay phải rặn khi đi tiểu và cảm giác bàng quang không được làm trống hoàn toàn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi thường xuyên thức dậy nhiều lần vào ban đêm để đi tiểu, ảnh hưởng đến giấc ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi gặp khó khăn khi bắt đầu đi tiểu và dòng nước tiểu chảy rất chậm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi đang lo lắng về việc tiểu không kiểm soát và đôi khi són tiểu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi hay bị nhiễm trùng đường tiết niệu kèm theo triệu chứng tiểu buốt và tiểu rắt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi nhận thấy có máu trong nước tiểu khi đi tiểu, điều này khiến tôi rất lo lắng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi trên 60 tuổi và bắt đầu gặp các vấn đề về tiểu tiện như tiểu đêm, tiểu nhiều lần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Cha tôi từng bị phì đại tuyến tiền liệt, và hiện tại tôi cũng đang gặp các triệu chứng tương tự. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi cảm thấy bàng quang luôn căng tức và mót tiểu, nhưng lượng nước tiểu mỗi lần lại rất ít. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi lo lắng về việc tuyến tiền liệt của mình có thể đang bị phì đại, gây ảnh hưởng đến chức năng tiểu tiện. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi hay bị đau vùng bụng dưới kèm theo triệu chứng tiểu khó. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi gặp khó khăn khi trì hoãn việc đi tiểu và thường xuyên bị són tiểu khi ho hoặc hắt hơi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi nhận thấy dòng nước tiểu của mình bị phân nhánh và yếu đi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi đang sử dụng thuốc điều trị huyết áp cao và gặp các tác dụng phụ liên quan đến tiểu tiện. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi lo lắng về việc các triệu chứng tiểu khó của mình có thể là dấu hiệu của ung thư tuyến tiền liệt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi đã từng phẫu thuật vùng bàng quang và hiện tại gặp khó khăn khi đi tiểu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi bị sỏi thận và đang gặp các triệu chứng tiểu buốt, tiểu rắt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Tiền Liệt",
+    "Question": "Tôi dưới 40 tuổi nhưng lại gặp các triệu chứng tiểu tiện bất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi hiện đang có các triệu chứng như núm vú to ra và sờ thấy có nhân cứng ở chính giữa. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi hay bị đau vú và cảm thấy ngực nặng nề, xệ xuống. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi đang cảm thấy ngực lớn hơn bình thường rất nhiều và da vùng ngực bị rạn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi thường xuyên bị đau lưng, vai, cổ và ngực sưng to, chảy xệ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Dạo gần đây tôi hay bị đau vú và sờ thấy có nhân cứng lan rộng ra xung quanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi cảm thấy ngực lớn hơn bình thường rất nhiều và da vùng ngực bị rạn, núm vú to ra. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi hay bị đau vú và cảm thấy ngực nặng nề, chảy xệ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi đang cảm thấy đau lưng, vai, cổ và ngực sưng to, chảy xệ, da vùng ngực bị rạn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi bị đau vú và sờ thấy có nhân cứng lan rộng ra xung quanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi hay bị đau lưng, vai, cổ và ngực sưng to, chảy xệ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi đang cảm thấy đau nhức, ngứa, nóng rát ở vú và ngực sưng to, chảy xệ, da vùng ngực bị rạn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi thường xuyên bị đau lưng, vai, cổ và ngực sưng to, chảy xệ, núm vú mất cảm giác. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Dạo gần đây tôi hay bị đau vú và sờ thấy có nhân cứng lan rộng ra xung quanh, kèm theo ngứa rát ở vú. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi cảm thấy ngực lớn hơn bình thường rất nhiều và da vùng ngực bị rạn, núm vú mất cảm giác. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi hay bị đau vú và cảm thấy ngực nặng nề, chảy xệ, kèm theo ngứa rát ở vú. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi đang cảm thấy đau lưng, vai, cổ và ngực sưng to, chảy xệ, núm vú mất cảm giác. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi bị đau vú và sờ thấy có nhân cứng lan rộng ra xung quanh, kèm theo ngứa rát và nhiễm trùng ở vú. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi hay bị đau lưng, vai, cổ và ngực sưng to, chảy xệ, kèm theo ngứa rát và nhiễm trùng ở vú. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi đang cảm thấy đau nhức, ngứa, nóng rát ở vú và ngực sưng to, chảy xệ, da vùng ngực bị rạn, núm vú mất cảm giác. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phì Đại Tuyến Vú",
+    "Question": "Tôi thường xuyên bị đau lưng, vai, cổ và ngực sưng to, chảy xệ, kèm theo ngứa rát và nhiễm trùng ở vú, núm vú mất cảm giác. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi hiện đang có các triệu chứng như sưng một phần cánh tay và đau thắt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi hay bị sưng toàn bộ cánh tay và cảm thấy nặng nề. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi đang cảm thấy đau thắt ở cánh tay và vùng da bị sưng có vẻ dày lên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi thường xuyên bị sưng cánh tay và đau, kèm theo nhiễm trùng tái đi tái lại. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Dạo gần đây tôi hay bị sưng cánh tay và cảm thấy nặng nề, khó cử động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi cảm thấy cánh tay sưng to và đau nhức, vùng da sưng cứng và dày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi hay bị sưng cánh tay và đau thắt, kèm theo cảm giác nặng nề. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi đang cảm thấy đau nhức ở cánh tay và vùng da bị sưng có vẻ dày lên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi bị sưng cánh tay và đau, kèm theo cảm giác nặng nề, khó cử động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi hay bị sưng cánh tay và đau, kèm theo nhiễm trùng tái phát nhiều lần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi đang cảm thấy đau nhức ở cánh tay và vùng da bị sưng có vẻ dày lên, ngón tay cũng sưng to. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi thường xuyên bị sưng cánh tay và đau, kèm theo cảm giác nặng nề, khó cử động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Dạo gần đây tôi hay bị sưng cánh tay và cảm thấy nặng nề, da sưng cứng và dày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi cảm thấy cánh tay sưng to và đau nhức, vùng da sưng cứng và dày, ngón tay cũng sưng to. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi hay bị sưng cánh tay và đau thắt, kèm theo nhiễm trùng tái phát nhiều lần. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi đang cảm thấy đau nhức ở cánh tay và vùng da bị sưng có vẻ dày lên. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi bị sưng cánh tay và đau, kèm theo cảm giác nặng nề, khó cử động, ngón tay cũng sưng to. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi hay bị sưng cánh tay và đau, kèm theo nhiễm trùng tái phát nhiều lần, ngón tay sưng to, khó cử động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi đang cảm thấy đau nhức ở cánh tay và vùng da bị sưng có vẻ dày lên, ngón tay cũng sưng to, khó cử động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phù Mạch Bạch Huyết Cánh Tay",
+    "Question": "Tôi thường xuyên bị sưng cánh tay và đau, kèm theo cảm giác nặng nề, khó cử động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi đang bị sốt cao, rét run, ho có đờm và đau ngực. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị sốt cao, quấy khóc, kéo tai và bỏ bú. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị đau đầu dữ dội, nôn mửa, sốt cao và cứng cổ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị nhiễm HIV và hiện đang sốt cao, rét run, lơ mơ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị ho nhiều, khó thở, đau ngực và sốt cao. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị chảy dịch vàng từ tai, sốt và quấy khóc. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi nhạy cảm với ánh sáng, đau đầu, nôn mửa và sốt cao. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị sốt, ớn lạnh, mệt mỏi và đau nhức cơ thể. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị ho ra máu, khó thở và đau ngực dữ dội. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị đau tai, sốt và khó chịu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị cứng cổ, đau đầu, buồn nôn và sốt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị suy giảm thính lực, đau tai và sốt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị ho có đờm xanh hoặc vàng, sốt và khó thở. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị tiêu chảy, sốt và kéo tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị đau đầu, lú lẫn và sốt cao. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị nhiễm trùng đường tiết niệu và hiện đang sốt cao, rét run. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị đau mắt, chảy nước mắt và mắt đỏ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị đau nhức xương, sốt và mệt mỏi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị sưng tấy, đỏ và đau ở một vùng da. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Phế Cầu Khuẩn",
+    "Question": "Tôi bị đau ngực, khó thở và sốt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi hiện đang có các triệu chứng như khàn tiếng và mất hơi khi nói. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi hay bị hụt hơi khi nói và cảm thấy vướng víu ở cổ họng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi đang cảm thấy giọng nói thay đổi và khàn đặc. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi thường xuyên bị khàn tiếng và mất hơi, kèm theo cảm giác vướng víu ở cổ họng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Dạo gần đây tôi hay bị khàn tiếng và hụt hơi khi nói. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi cảm thấy giọng nói thay đổi, khàn đặc và vướng víu ở cổ họng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi hay bị khàn tiếng và mất hơi khi nói chuyện. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi đang cảm thấy giọng nói thay đổi, khàn đặc và hụt hơi khi nói. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi bị khàn tiếng và mất hơi, kèm theo cảm giác vướng víu ở cổ họng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi hay bị khàn tiếng và hụt hơi khi hát. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi đang cảm thấy giọng nói thay đổi, khàn đặc và hụt hơi khi hát, kèm theo cảm giác vướng víu ở cổ họng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi thường xuyên bị khàn tiếng và mất hơi khi nói chuyện lâu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Dạo gần đây tôi hay bị khàn tiếng và hụt hơi khi nói chuyện lâu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi cảm thấy giọng nói thay đổi, khàn đặc và hụt hơi khi nói chuyện lâu, kèm theo cảm giác vướng víu ở cổ họng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi hay bị khàn tiếng và mất hơi khi nói, kèm theo cảm giác vướng víu ở cổ họng như có dị vật. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi đang cảm thấy giọng nói thay đổi, khàn đặc và hụt hơi khi nói, kèm theo cảm giác vướng víu ở cổ họng như có dị vật. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi bị khàn tiếng và mất hơi, kèm theo cảm giác vướng víu ở cổ họng như có sợi tóc. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi hay bị khàn tiếng và hụt hơi khi hát, kèm theo cảm giác vướng víu ở cổ họng như có dị vật. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi đang cảm thấy giọng nói thay đổi, khàn đặc và hụt hơi khi hát, kèm theo cảm giác vướng víu ở cổ họng như có sợi tóc. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dây Thanh Quản",
+    "Question": "Tôi thường xuyên bị khàn tiếng và mất hơi khi nói chuyện lâu, kèm theo cảm giác vướng víu ở cổ họng như có dị vật. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi hiện đang có các triệu chứng như ợ nóng và cảm thấy no nhanh, mặc dù tôi chỉ ăn một lượng nhỏ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi hay bị trào ngược axit và khó tiêu, đặc biệt là sau khi ăn đồ dầu mỡ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi đang cảm thấy mệt mỏi và đau bụng âm ỉ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi thường xuyên bị ợ nóng và đau bụng, kèm theo cảm giác no nhanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Dạo gần đây tôi hay bị trào ngược axit và khó tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi cảm thấy no rất nhanh khi ăn và thường xuyên bị ợ nóng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi hay bị đau bụng và khó tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi đang cảm thấy mệt mỏi và thỉnh thoảng bị trào ngược axit. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi bị khó tiêu và cảm thấy no nhanh sau khi ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi hay bị ợ nóng và đau bụng, đặc biệt là vào ban đêm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi đang cảm thấy mệt mỏi và chán ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi bị trào ngược axit và khó tiêu, kèm theo đau bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi cảm thấy no rất nhanh khi ăn và thường xuyên bị ợ chua. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi hay bị đau bụng và khó tiêu sau khi ăn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi đang cảm thấy mệt mỏi và thỉnh thoảng bị ợ nóng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi bị khó tiêu và cảm thấy no nhanh ngay cả khi ăn ít. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi hay bị ợ nóng và đau bụng, đặc biệt là sau khi ăn đồ cay nóng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi đang cảm thấy mệt mỏi và chán ăn, kèm theo đau bụng âm ỉ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi bị trào ngược axit và khó tiêu, cùng với cảm giác no nhanh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Dạ Dày",
+    "Question": "Tôi cảm thấy no rất nhanh khi ăn và thường xuyên bị ợ chua, kèm theo đau bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi hiện đang có các triệu chứng như khối sa hậu môn sau đại tiện và đau bụng quặn từng cơn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi đang cảm thấy mệt mỏi, suy nhược cơ thể và hay bị choáng, xanh xao. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi hay đi ngoài phân lỏng và đi ngoài nhiều lần trong ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi lo lắng vì mình có nguy cơ cao mắc polyp hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi muốn biết cách phát hiện sớm polyp hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi đang tìm hiểu về nguyên nhân gây ra polyp hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi muốn biết cách chẩn đoán polyp hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi đang tìm kiếm phương pháp điều trị polyp hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi muốn biết liệu polyp hậu môn có thể tự khỏi hay không. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi lo lắng về biến chứng của polyp hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi cần thay đổi chế độ ăn uống như thế nào khi bị polyp hậu môn? Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi cần tập luyện như thế nào khi bị polyp hậu môn? Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi muốn biết cách theo dõi tình trạng polyp hậu môn tại nhà. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi muốn tìm hiểu về các loại thuốc điều trị polyp hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi lo lắng về tác dụng phụ của các loại thuốc điều trị polyp hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi muốn biết khi nào cần đi khám bác sĩ khi bị polyp hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi muốn tìm hiểu về các nghiên cứu mới nhất về polyp hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi mong muốn tìm được phương pháp điều trị hiệu quả để cải thiện sức khỏe của mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi muốn chia sẻ với những người cùng bị polyp hậu môn để tìm kiếm sự đồng cảm và hỗ trợ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Hậu Môn",
+    "Question": "Tôi cần lưu ý gì để phòng ngừa polyp hậu môn? Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi hiện đang có các triệu chứng như đi ngoài ra máu, sa ra ngoài khi đi tiêu và tắc ruột. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi lo lắng vì mình có nguy cơ cao mắc polyp trực tràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi muốn biết cách phát hiện sớm polyp trực tràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi đang tìm hiểu về nguyên nhân gây ra polyp trực tràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi muốn biết cách chẩn đoán polyp trực tràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi đang tìm kiếm phương pháp điều trị polyp trực tràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi muốn biết liệu polyp trực tràng có thể tự khỏi hay không. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi lo lắng về biến chứng của polyp trực tràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi cần thay đổi chế độ ăn uống như thế nào khi bị polyp trực tràng? Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi cần tập luyện như thế nào khi bị polyp trực tràng? Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi muốn biết cách theo dõi tình trạng polyp trực tràng tại nhà. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi muốn tìm hiểu về các loại thuốc điều trị polyp trực tràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi lo lắng về tác dụng phụ của các loại thuốc điều trị polyp trực tràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi muốn biết khi nào cần đi khám bác sĩ khi bị polyp trực tràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi muốn tìm hiểu về các nghiên cứu mới nhất về polyp trực tràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi mong muốn tìm được phương pháp điều trị hiệu quả để cải thiện sức khỏe của mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi muốn chia sẻ với những người cùng bị polyp trực tràng để tìm kiếm sự đồng cảm và hỗ trợ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi cần lưu ý gì để phòng ngừa polyp trực tràng? Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi muốn tìm hiểu về phương pháp phẫu thuật điều trị polyp trực tràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Trực Tràng",
+    "Question": "Tôi lo lắng về nguy cơ ung thư từ polyp trực tràng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi hiện đang có các triệu chứng như chảy máu trực tràng và đau bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi hay bị táo bón và phân có màu đen. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi đang cảm thấy mệt mỏi và khó thở, kèm theo phân có máu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi thường xuyên bị tiêu chảy và đau quặn bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Dạo gần đây tôi hay bị táo bón và phân có tơ máu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi cảm thấy mệt mỏi, khó thở và phân có màu đen. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi hay bị đau bụng và phân có màu bất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi đang cảm thấy mệt mỏi, khó thở và thay đổi thói quen đi tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi bị tiêu chảy kéo dài và phân có máu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi hay bị táo bón kéo dài và đau bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi đang cảm thấy mệt mỏi, khó thở, phân có máu và thay đổi thói quen đi tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi thường xuyên bị tiêu chảy, phân có máu và đau quặn bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Dạo gần đây tôi hay bị táo bón, phân có tơ máu và đau bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi cảm thấy mệt mỏi, khó thở, phân có màu đen và thay đổi thói quen đi tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi hay bị đau bụng, phân có màu bất thường và thay đổi thói quen đi tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi đang cảm thấy mệt mỏi, khó thở, phân có máu, đau bụng và thay đổi thói quen đi tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi bị tiêu chảy kéo dài, phân có máu và đau quặn bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi hay bị táo bón kéo dài, phân có tơ máu và đau bụng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi đang cảm thấy mệt mỏi, khó thở, phân có màu đen, đau bụng và thay đổi thói quen đi tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Polyp Đại Tràng",
+    "Question": "Tôi thường xuyên bị tiêu chảy, phân có máu, đau quặn bụng và thay đổi thói quen đi tiêu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi hiện đang có các triệu chứng như sưng ở mặt, bụng, bàn chân hoặc mắt cá chân, đi tiểu thường xuyên và hụt hơi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi đang cảm thấy mệt mỏi, buồn nôn và nôn, chán ăn và chuột rút cơ bắp vào ban đêm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi hay xuất hiện bọng quanh mắt, đặc biệt là vào buổi sáng. Nước tiểu của tôi cũng có bọt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi lo lắng vì các triệu chứng của mình giống với bệnh thận mãn tính. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi muốn biết liệu protein niệu có nguy hiểm hay không. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi đang tìm hiểu về nguyên nhân gây ra protein niệu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi muốn biết cách chẩn đoán protein niệu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi đang tìm kiếm phương pháp điều trị protein niệu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi muốn biết liệu protein niệu có thể tự khỏi hay không. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi lo lắng về biến chứng của protein niệu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi cần thay đổi chế độ ăn uống như thế nào khi bị protein niệu? Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi cần tập luyện như thế nào khi bị protein niệu? Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi muốn biết cách theo dõi tình trạng protein niệu tại nhà. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi muốn tìm hiểu về các loại thuốc điều trị protein niệu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi lo lắng về tác dụng phụ của các loại thuốc điều trị protein niệu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi muốn biết khi nào cần đi khám bác sĩ khi bị protein niệu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi muốn tìm hiểu về các nghiên cứu mới nhất về protein niệu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi mong muốn tìm được phương pháp điều trị hiệu quả để cải thiện sức khỏe của mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi muốn chia sẻ với những người cùng bị protein niệu để tìm kiếm sự đồng cảm và hỗ trợ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Protein Niệu",
+    "Question": "Tôi cần lưu ý gì để phòng ngừa protein niệu? Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi hiện đang có các triệu chứng như ra mồ hôi nhiều ở nách, thấm ướt đẫm áo buộc phải thay áo vài lần trong ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi đang cảm thấy da tay mình mềm, mỏng, bong tróc và hay bị nhiễm trùng da và nấm da gây ngứa ngáy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi hay đổ mồ hôi đọng thành “giọt sương” ở lòng bàn tay, đặc biệt là khi căng thẳng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi thường xuyên phải lau tay vì mồ hôi ra quá nhiều, gây khó khăn khi cầm nắm đồ vật. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi ngại giao tiếp và tiếp xúc với người khác vì bàn tay lúc nào cũng ướt đẫm mồ hôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi hay bị trêu chọc vì bàn tay lúc nào cũng ướt át, khiến tôi cảm thấy tự ti. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi đang tìm kiếm giải pháp để giảm tình trạng ra mồ hôi tay chân quá nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi lo lắng không biết tình trạng ra mồ hôi tay chân nhiều có ảnh hưởng đến sức khỏe của tôi không. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi nghe nói ra mồ hôi tay chân nhiều có thể là dấu hiệu của một số bệnh lý. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi muốn biết nguyên nhân gây ra tình trạng ra mồ hôi tay chân nhiều của tôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi đang tìm hiểu về các phương pháp điều trị ra mồ hôi tay chân nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi muốn biết liệu tình trạng ra mồ hôi tay chân nhiều có thể tự khỏi hay không. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi đang cân nhắc sử dụng các loại thuốc để giảm tiết mồ hôi tay chân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi muốn tìm hiểu về phương pháp phẫu thuật điều trị ra mồ hôi tay chân nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi lo lắng về tác dụng phụ của các phương pháp điều trị ra mồ hôi tay chân nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi muốn biết liệu có cách nào để phòng ngừa tình trạng ra mồ hôi tay chân nhiều hay không. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi đang tìm kiếm các biện pháp khắc phục tại nhà để giảm bớt tình trạng ra mồ hôi tay chân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi muốn chia sẻ với những người cùng gặp tình trạng ra mồ hôi tay chân nhiều để tìm kiếm sự đồng cảm và hỗ trợ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi muốn tìm hiểu thêm về các nghiên cứu mới nhất về ra mồ hôi tay chân nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Ra Mồ Hôi Tay Chân Nhiều",
+    "Question": "Tôi mong muốn tìm được phương pháp điều trị hiệu quả để cải thiện chất lượng cuộc sống của mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi hiện đang mang thai và có các triệu chứng như chảy máu âm đạo bất thường, có thể là máu tươi hoặc máu cục nhưng không hề gây đau đớn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi đang mang thai 3 tháng cuối và bị xuất huyết âm đạo tự khỏi mà không cần can thiệp điều trị. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi hay bị xuất huyết âm đạo tái phát sau vài ngày hoặc vài tuần, và lượng máu ngày càng tăng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi đang mang thai và bị đau bụng do tử cung co thắt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi lo lắng vì mình có nguy cơ cao bị rau bám mép. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi muốn biết cách phát hiện sớm rau bám mép. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi đang tìm hiểu về nguyên nhân gây ra rau bám mép. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi muốn biết cách chẩn đoán rau bám mép. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi đang tìm kiếm phương pháp điều trị rau bám mép. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi muốn biết liệu rau bám mép có thể tự khỏi hay không. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi lo lắng về biến chứng của rau bám mép cho cả mẹ và bé. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi cần thay đổi chế độ ăn uống như thế nào khi bị rau bám mép? Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi cần nghỉ ngơi như thế nào khi bị rau bám mép? Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi muốn biết cách theo dõi tình trạng rau bám mép tại nhà. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi muốn tìm hiểu về các loại thuốc điều trị rau bám mép. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi lo lắng về tác dụng phụ của các loại thuốc điều trị rau bám mép. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi muốn biết khi nào cần đi khám bác sĩ khi bị rau bám mép. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi muốn tìm hiểu về các nghiên cứu mới nhất về rau bám mép. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi mong muốn tìm được phương pháp điều trị hiệu quả để đảm bảo an toàn cho cả mẹ và bé. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Bám Mép",
+    "Question": "Tôi muốn chia sẻ với những người cùng bị rau bám mép để tìm kiếm sự đồng cảm và hỗ trợ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi đang mang thai ở tháng cuối và bị xuất huyết âm đạo bất thường, không đau. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi hay bị chảy máu âm đạo đột ngột khi mang thai, máu có màu đỏ tươi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi đang mang thai và bị chảy máu âm đạo, dù siêu âm trước đó không phát hiện bất thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi cảm thấy lo lắng vì bị xuất huyết âm đạo trong thai kỳ, dù đã tuân thủ lịch khám thai đều đặn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi đang mang thai và bị chảy máu âm đạo, kèm theo cảm giác mệt mỏi, choáng váng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi hay bị chảy máu âm đạo từng đợt khi mang thai, lượng máu ra nhiều hơn khi ho hoặc hắt hơi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi đang mang thai tháng thứ 7 và bị xuất huyết âm đạo sau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi cảm thấy lo lắng vì bị chảy máu âm đạo khi mang thai, dù thai nhi vẫn máy và cử động bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi đang mang thai và bị chảy máu âm đạo, kèm theo đau bụng dưới âm ỉ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi hay bị chảy máu âm đạo bất thường khi mang thai, đặc biệt là sau khi đi đại tiện. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi đang mang thai tháng thứ 8 và bị xuất huyết âm đạo đột ngột, máu ra nhiều và có màu đỏ tươi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi cảm thấy lo lắng vì bị chảy máu âm đạo khi mang thai, dù đã nghỉ ngơi và hạn chế vận động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi đang mang thai và bị chảy máu âm đạo, kèm theo cảm giác khó thở, hồi hộp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi hay bị chảy máu âm đạo từng cơn khi mang thai, lượng máu ra nhiều và có lẫn dịch nhầy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi đang mang thai tháng cuối và bị xuất huyết âm đạo, kèm theo đau bụng dữ dội. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi hay bị chảy máu âm đạo bất thường khi mang thai, đặc biệt là vào ban đêm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi đang mang thai và bị xuất huyết âm đạo sau khi gắng sức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi cảm thấy lo lắng vì bị chảy máu âm đạo khi mang thai, dù đã uống thuốc dưỡng thai theo chỉ định của bác sĩ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi đang mang thai và bị chảy máu âm đạo, kèm theo cảm giác buồn nôn và nôn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Cài Răng Lược",
+    "Question": "Tôi hay bị chảy máu âm đạo từng đợt khi mang thai, lượng máu ra nhiều hơn khi thay đổi tư thế. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi hiện đang có các triệu chứng như xuất huyết âm đạo bất thường với máu đỏ tươi, không đau ở tam cá nguyệt thứ ba. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi đang cảm thấy xuất huyết âm đạo bất thường tái phát nhiều lần, lượng máu ngày càng nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi hay bị chảy máu âm đạo khi mang thai, kèm theo cơn co thắt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi đang mang thai ở tháng thứ 7 và bị chảy máu âm đạo bất thường, máu có lẫn cục máu đông. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi cảm thấy lo lắng vì bị xuất huyết âm đạo trong thai kỳ, dù không đau nhưng máu ra khá nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi đang mang thai và thỉnh thoảng bị chảy máu âm đạo, máu có màu đỏ tươi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi hay bị chảy máu âm đạo bất thường khi mang thai, đặc biệt là vào ban đêm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi đang mang thai tháng thứ 8 và bị xuất huyết âm đạo đột ngột, không rõ nguyên nhân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi cảm thấy lo lắng vì bị chảy máu âm đạo khi mang thai, dù đã uống thuốc dưỡng thai theo chỉ định của bác sĩ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi đang mang thai và bị chảy máu âm đạo, kèm theo cảm giác mệt mỏi, chóng mặt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi hay bị chảy máu âm đạo từng đợt khi mang thai, lượng máu ra nhiều hơn khi vận động mạnh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi đang mang thai và bị xuất huyết âm đạo sau khi quan hệ tình dục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi cảm thấy lo lắng vì bị chảy máu âm đạo khi mang thai, dù siêu âm thai nhi vẫn phát triển bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi đang mang thai và bị chảy máu âm đạo, kèm theo đau bụng dưới âm ỉ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi hay bị chảy máu âm đạo bất thường khi mang thai, đặc biệt là sau khi đi vệ sinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi đang mang thai tháng thứ 6 và bị xuất huyết âm đạo đột ngột, máu ra nhiều và có màu đỏ tươi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi cảm thấy lo lắng vì bị chảy máu âm đạo khi mang thai, dù đã nghỉ ngơi và hạn chế vận động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi đang mang thai và bị chảy máu âm đạo, kèm theo cảm giác khó thở, hồi hộp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi hay bị chảy máu âm đạo từng cơn khi mang thai, lượng máu ra nhiều và có lẫn dịch nhầy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rau Tiền Đạo",
+    "Question": "Tôi đang mang thai tháng cuối và bị xuất huyết âm đạo, kèm theo đau bụng dữ dội. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như thời gian hành kinh kéo dài trên 7 ngày và lượng máu kinh ra nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi đang cảm thấy cơ thể mệt mỏi, da xanh xao, thiếu sức sống và lượng máu kinh ra nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hay bị đau dữ dội hoặc đau âm ỉ ở vùng bụng dưới và thời gian hành kinh kéo dài. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như lượng máu kinh ra nhiều, nhất là ban đêm làm ảnh hưởng đến giấc ngủ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi đang cảm thấy mệt mỏi, khó thở và thời gian hành kinh kéo dài trên 10 ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hay bị đau bụng kinh và lượng máu kinh ra nhiều hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như da xanh xao, thiếu sức sống và phải thay băng vệ sinh liên tục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi đang cảm thấy mệt mỏi, đau bụng kinh và thời gian hành kinh kéo dài trên 7 ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hay bị mất ngủ do lượng máu kinh ra nhiều vào ban đêm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như da xanh xao, thiếu sức sống và đau bụng kinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi đang cảm thấy mệt mỏi, khó thở và lượng máu kinh ra nhiều hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hay bị đau bụng kinh và phải thay băng vệ sinh liên tục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như mất ngủ, da xanh xao và thời gian hành kinh kéo dài. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi đang cảm thấy mệt mỏi, đau bụng dữ dội và lượng máu kinh ra nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hay bị thiếu sức sống, da xanh xao và phải thay băng vệ sinh liên tục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như mất ngủ, đau bụng âm ỉ và thời gian hành kinh kéo dài trên 10 ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi đang cảm thấy mệt mỏi, khó thở và đau bụng kinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hay bị thiếu sức sống, da xanh xao và lượng máu kinh ra nhiều hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như mất ngủ, đau bụng kinh và phải thay băng vệ sinh liên tục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh Tiền Mãn Kinh",
+    "Question": "Tôi đang cảm thấy lo lắng về tình trạng kinh nguyệt bất thường của mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như đau bụng kinh kéo dài, lượng máu kinh ra nhiều và xuất hiện cục máu đông có kích thước lớn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi đang cảm thấy mệt mỏi, khó thở, kiệt sức và lượng máu kinh ra nhiều trong thời gian hành kinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hay phải thay băng vệ sinh liên tục sau vài giờ và lượng máu kinh nhiều hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như da nhợt nhạt, muốn ăn những thứ không phải là thực phẩm và lượng máu kinh ra nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi đang cảm thấy kiệt sức, thời gian hành kinh kéo dài trên 7 ngày và lượng máu kinh ra nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hay phải sử dụng cùng lúc hai hoặc nhiều băng vệ sinh và thời gian hành kinh kéo dài. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như rụng tóc, da nhợt nhạt và lượng máu kinh ra nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi đang cảm thấy mệt mỏi, đau bụng kinh và lượng máu kinh ra nhiều hơn 80ml. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hay xuất hiện cục máu đông có kích thước lớn trong thời kỳ kinh nguyệt. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như khó thở, thời gian hành kinh kéo dài trên 10 ngày và lượng máu kinh ra nhiều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi đang cảm thấy kiệt sức, muốn ăn những thứ không phải là thực phẩm và đau bụng kinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hay bị rụng tóc, da nhợt nhạt và phải thay băng vệ sinh liên tục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như mệt mỏi, đau bụng kinh và phải sử dụng cùng lúc hai hoặc nhiều băng vệ sinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi đang cảm thấy khó thở, xuất hiện cục máu đông lớn và lượng máu kinh ra nhiều hơn bình thường. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hay bị rụng tóc, da nhợt nhạt và thời gian hành kinh kéo dài trên 7 ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như kiệt sức, muốn ăn những thứ không phải là thực phẩm và phải thay băng vệ sinh liên tục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi đang cảm thấy mệt mỏi, khó thở và thời gian hành kinh kéo dài trên 10 ngày. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hay bị rụng tóc, da nhợt nhạt và xuất hiện cục máu đông lớn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi hiện đang có các triệu chứng như kiệt sức, đau bụng kinh và lượng máu kinh ra nhiều hơn 80ml. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rong Kinh",
+    "Question": "Tôi đang cảm thấy mệt mỏi, muốn ăn những thứ không phải là thực phẩm và phải sử dụng cùng lúc hai hoặc nhiều băng vệ sinh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như hồi hộp, đánh trống ngực. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi đang cảm thấy hụt hơi, lệch nhịp hoặc nhịp tim không đều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hay bị khó thở, đặc biệt khi vận động hoặc tập thể dục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như lâng lâng, chóng mặt hoặc thậm chí cảm giác muốn ngất xỉu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi đang cảm thấy giảm khả năng gắng sức, yếu trong người, dễ đuối sức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hay bị nặng ngực, tức ngực, đau ngực. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như đột quỵ não. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi đang cảm thấy mệt mỏi, khó thở và nhịp tim không đều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hay bị chóng mặt, lâng lâng và hồi hộp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như đánh trống ngực, hụt hơi và khó thở khi vận động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi đang cảm thấy yếu người, dễ đuối sức và nhịp tim không đều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hay bị đau ngực, tức ngực và hồi hộp. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như chóng mặt, muốn ngất xỉu và nhịp tim không đều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi đang cảm thấy khó thở, hụt hơi và yếu người. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hay bị đánh trống ngực, chóng mặt và dễ đuối sức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như đau ngực, tức ngực và khó thở khi vận động. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi đang cảm thấy hồi hộp, yếu người và nhịp tim không đều. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hay bị chóng mặt, muốn ngất xỉu và hụt hơi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như đánh trống ngực, khó thở và dễ đuối sức. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rung Nhĩ",
+    "Question": "Tôi đang cảm thấy lo lắng về nhịp tim bất thường của mình. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi hiện đang có các triệu chứng như đau và sưng quanh hậu môn, tiết dịch hôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi đang cảm thấy đau khi đại tiện, chảy máu hậu môn, ngứa ngáy khó chịu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi hay bị chảy dịch mủ từ một lỗ nhỏ gần hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi đang bị sốt, ớn lạnh, mệt mỏi kèm theo đau nhức hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi cảm thấy đau rát hậu môn khi đi đại tiện, đôi khi có máu lẫn trong phân. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi đang bị sưng đau hậu môn, kèm theo chảy dịch hôi và ngứa ngáy. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi hay bị táo bón, rặn nhiều khi đi đại tiện và xuất hiện vết rách hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi đang bị chảy dịch mủ vàng hoặc xanh từ hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi cảm thấy đau nhói hậu môn khi ngồi hoặc đi lại. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi đang bị sưng tấy, nóng rát hậu môn, kèm theo chảy dịch hôi. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi hay bị chảy dịch mủ từ hậu môn sau khi đi đại tiện. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi đang bị ngứa ngáy hậu môn dữ dội, kèm theo chảy dịch và đau rát. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi cảm thấy khó chịu và đau nhức hậu môn, đặc biệt là sau khi ngồi lâu. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi đang bị chảy máu hậu môn tươi, không kèm theo đau. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi hay bị táo bón, rặn nhiều khi đi đại tiện và xuất hiện cục cứng ở hậu môn. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi đang bị sưng đau hậu môn, kèm theo sốt và ớn lạnh. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi cảm thấy khó khăn khi đi đại tiện, phân nhỏ và cứng. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi đang bị chảy dịch hôi từ hậu môn, kèm theo ngứa ngáy và đau rát. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi hay bị chảy máu hậu môn sau khi đi đại tiện, máu có màu đỏ sẫm. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Hậu Môn",
+    "Question": "Tôi đang bị sưng đau hậu môn, kèm theo chảy dịch mủ và khó đi đại tiện. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như sưng đau, có dịch mủ ở khu vực tai ngoài và thấy một lỗ nhỏ ngay giữa phần sưng đau. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi đang cảm thấy ngứa, sưng tấy ở tai ngoài và có dịch tiết ra từ một lỗ nhỏ gần vành tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hay bị chảy mủ tai tái phát và có một lỗ nhỏ ở trước vành tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như ban đỏ, đau nhức ở tai ngoài và thấy một lỗ nhỏ gần vành tai tiết ra dịch màu trắng đục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi đang cảm thấy ngứa, sưng tấy ở tai và có dịch có mùi hôi chảy ra từ một lỗ nhỏ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hay bị viêm mô tế bào, tụ mủ ở tai ngoài và có một lỗ nhỏ ở trước vành tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như nhức đầu, sốt và có dịch mủ chảy ra từ một lỗ nhỏ ở tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi đang cảm thấy đau, sưng tấy ở tai và có một lỗ nhỏ gần vành tai tiết ra dịch màu trắng đục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hay bị ngứa, ban đỏ ở tai ngoài và có một lỗ nhỏ ở trước vành tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như sưng tấy, đau nhức ở tai và có dịch có mùi hôi chảy ra từ một lỗ nhỏ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi đang cảm thấy ngứa, có dịch mủ chảy ra từ một lỗ nhỏ ở tai và cạnh lỗ nhỏ có thể sờ thấy một cục nhỏ như đầu ngón tay. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hay bị chảy mủ tai tái phát, nhức đầu và có một lỗ nhỏ ở trước vành tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như ban đỏ, sưng tấy ở tai và cạnh lỗ nhỏ có thể sờ thấy một cục nhỏ như đầu ngón tay. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi đang cảm thấy đau, có dịch tiết ra từ một lỗ nhỏ gần vành tai và có tiền sử gia đình bị điếc. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hay bị ngứa, sưng tấy ở tai ngoài và có một dị tật khác ở tai. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như sưng đau, có dịch mủ ở khu vực tai ngoài và có tiền sử gia đình bị bệnh thận. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi đang cảm thấy ngứa, có dịch tiết ra từ một lỗ nhỏ gần vành tai và mẹ tôi bị tiểu đường thai kỳ. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hay bị chảy mủ tai tái phát, ban đỏ ở tai ngoài và mắc hội chứng Branchio-Oto-Renal. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi hiện đang có các triệu chứng như đau, sưng tấy ở tai và có một lỗ nhỏ gần vành tai tiết ra dịch màu trắng đục. Tôi có thể đang bị bệnh gì?"
+  },
+  {
+    "Disease": "Rò Luân Nhĩ",
+    "Question": "Tôi đang cảm thấy ngứa, có dịch có mùi hôi chảy ra từ một lỗ nhỏ ở tai và dùng thuốc propylthiouracil điều trị bệnh tuyến giáp trong tam cá nguyệt đầu tiên. Tôi có thể đang bị bệnh gì?"
+  }
+]
