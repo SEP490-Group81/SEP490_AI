@@ -12,7 +12,7 @@ from google.adk.tools import ToolContext
 from hospital_booking_agent.shared_libraries import constants
 
 SAMPLE_SCENARIO_PATH = os.getenv(
-    "HOSPITAL_BOOKING_AGENT_SCENARIO", "hospital_booking_agent/profiles/itinerary_empty_default.json"
+    "HOSPITAL_BOOKING_AGENT_SCENARIO", "hospital_booking_agent/config/itinerary_empty_default.json"
 )
 
 

@@ -34,7 +34,7 @@ location_suggestion_agent = Agent(
     name="location_suggestion_agent",
     description="A sub-agent that suggests locations based on user input",
     instruction=prompt.LOCATION_SUGGESTION_AGENT_INSTR,
-    # tools=[location_tool],
+    tools=[location_tool],
     before_agent_callback=None
 )
 
