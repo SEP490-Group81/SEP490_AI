@@ -1,39 +1,40 @@
 from google.adk.agents import Agent
 from google.adk.tools.agent_tool import AgentTool
 from hospital_booking_agent.sub_agents.plan_agent import prompt
+from hospital_booking_agent.shared_libraries import types
 
-specialty_tool = AgentTool(
+specialty_tool = Agent(
+    model="gemini-2.0-flash-001",
     name="specialty_selection",
     description="Chọn chuyên khoa phù hợp dựa trên lý do khám của bệnh nhân",
-    agent_name="specialty_selection_agent",
     instruction=prompt.SPECIALTY_SELECTION_AGENT_INSTR,
-    input_schema={"reason": str},
-    output_schema={"specialties": list}
+    input_schema=types.SpecialtyInput,
+    output_schema= types.SpecialtyOutput
 )
 
-timeline_tool = AgentTool(
+timeline_tool = Agent(
+    model="gemini-2.0-flash-001",
     name="timeline_selection",
     description="Đề xuất khung giờ khám dựa trên chuyên khoa và bệnh viện",
-    agent_name="timeline_selection_agent",
     instruction=prompt.TIMELINE_SELECTION_AGENT_INSTR,
-    input_schema={"specialty": str, "hospital_id": str},
-    output_schema={"available_slots": list}
+    input_schema= types.TimelineInput,
+    output_schema= types.TimelineOutput
 )
 
-hospital_tool = AgentTool(
-    name="select_hospital",
-    description="Chọn bệnh viện nơi khám",
-    agent_name="hospital_selection_agent",
-    instruction=prompt.HOSPITAL_SELECTION_AGENT_INSTR,
-    input_schema={"user_profile": dict},
-    output_schema={"hospital_id": str, "hospital_name": str}
-)
-
-doctor_tool = AgentTool(
+doctor_tool = Agent(
+    model="gemini-2.0-flash-001",
     name="doctor_selection",
     description="Chọn bác sĩ dựa trên chuyên khoa và tiêu chí",
-    agent_name="doctor_selection_agent",
     instruction=prompt.DOCTOR_SELECTION_AGENT_INSTR,
-    input_schema={"specialty": str, "constraints": dict},
-    output_schema={"doctor_id": str, "doctor_name": str}
+    input_schema= types.DoctorInput,
+    output_schema= types.DoctorOutput
+)
+
+hospital_services_agent = Agent(
+    model="gemini-2.0-flash-001",
+    name="hospital_services_agent",
+    description="Lấy danh sách dịch vụ khám tương ứng với bệnh viện được chọn",
+    instruction=prompt.HOSPITAL_SERVICES_AGENT_INSTR,
+    input_schema= types.HospitalServicesInput,
+    output_schema= types.HospitalServicesOutput
 )

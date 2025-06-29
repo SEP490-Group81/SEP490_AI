@@ -18,11 +18,8 @@ ROOT_AGENT_INSTR = """
 Quy tắc phân quyền:
 - Nếu người dùng nói về triệu chứng, bệnh lý muốn tìm hiểu, chuyển đến **hospital_suggestion_agent** để phân tích triệu chứng và gợi ý các bệnh lý có thể gặp.
 - Nếu người dùng nói về triệu chứng, bệnh lý hoặc muốn tìm bệnh viện gần một vị trí, chuyển đến **hospital_suggestion_agent**.
-- Sau khi người dùng chọn bệnh viện, chuyển đến **plan_agent**, tác nhân này sẽ:
-    + Gọi **service_selection_agent** => liệt kê các dịch vụ tại bệnh viện.  
-    + Gọi **doctor_selection_agent** => liệt kê các bác sĩ theo dịch vụ đã chọn.  
-    + Gọi **timeline_schedule_agent** => hiển thị khung giờ rảnh của bác sĩ đã chọn.  
-- Sau khi người dùng chọn khung giờ, chuyển đến **booking_agent** để:
+- Sau khi người dùng chọn bệnh viện đặt khám, chuyển đến **plan_agent**, tác nhân này sẽ hoàn thiện các bước lập kế hoạch khám phù hợp
+- Sau khi người dùng xác nhậ các bước đặt tại plan agent, chuyển đến **booking_agent** để:
     1. Xác nhận thông tin hồ sơ bệnh nhân qua **patient_profile_agent**.  
     2. Gọi API đặt lịch của bệnh viện để hoàn tất đặt hẹn.  
 

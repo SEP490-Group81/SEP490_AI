@@ -1,19 +1,19 @@
 {
   "by_doctor": {
     "name": "Đặt khám theo bác sĩ",
-    "steps": ["select_hospital", "select_specialty", "select_doctor", "select_timeline"]
+    "steps": ["select_specialty", "select_doctor", "select_timeline"]
   },
   "general_checkup": {
     "name": "Khám tổng quát",
-    "steps": ["select_hospital", "select_timeline"]
+    "steps": ["select_timeline"]
   },
   "specialist_consultation": {
     "name": "Khám chuyên khoa",
-    "steps": ["select_hospital", "select_specialty", "select_timeline"]
+    "steps": ["select_specialty", "select_timeline"]
   },
   "expert_consultation": {
     "name": "Khám chuyên gia",
-    "steps": ["select_hospital", "select_specialty", "select_doctor", "select_timeline"],
+    "steps": ["select_specialty", "select_doctor", "select_timeline"],
     "constraints": {
       "include_titles": ["Giáo sư", "Phó Giáo sư"]
     }

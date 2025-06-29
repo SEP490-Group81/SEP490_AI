@@ -1,4 +1,4 @@
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 from google.genai import types
 from pydantic import BaseModel, Field
@@ -18,3 +18,38 @@ class PatientProfile(BaseModel):
 class SymtomInputSchema(BaseModel):
     """Input schema for symptoms."""
     symptom: str = Field(description="A detailed description of the symptoms the patient is experiencing.")
+
+class ServiceLoaderInput(BaseModel):
+    service_code: str
+
+# Định nghĩa schema input
+class SpecialtyInput(BaseModel):
+    reason: str
+
+# Định nghĩa schema output
+class SpecialtyOutput(BaseModel):
+    specialties: List[str]
+
+# Timeline Tool Schemas
+class TimelineInput(BaseModel):
+    specialty: str
+    hospital_id: str
+
+class TimelineOutput(BaseModel):
+    available_slots: List[str]
+
+# Doctor Tool Schemas
+class DoctorInput(BaseModel):
+    specialty: str
+    constraints: Dict[str, str]  # hoặc Dict[str, Any] nếu constraint phức tạp
+
+class DoctorOutput(BaseModel):
+    doctor_id: str
+    doctor_name: str
+
+# Hospital Services Agent Schemas
+class HospitalServicesInput(BaseModel):
+    hospital_id: str
+
+class HospitalServicesOutput(BaseModel):
+    services: List[str]
