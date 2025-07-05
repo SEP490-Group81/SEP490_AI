@@ -4,8 +4,8 @@ from typing import Dict, List, Any, Optional
 """API_Tools use for get data from API."""
 
 
-#Hàm GET Data 
-def fetch_from_api(api_url: str) -> List[Dict[str, Any]]:
+#Hàm GET Hospitals Data 
+def fetch_hospital_from_api(api_url: str) -> List[Dict[str, Any]]:
     """
     Hàm GET API.
     """
@@ -13,20 +13,20 @@ def fetch_from_api(api_url: str) -> List[Dict[str, Any]]:
     try:
         response = requests.get(api_url, timeout=10) 
         response.raise_for_status() 
-        raw_api_data = response.json()
+        raw_hospital_data = response.json()
 
         # Kiểm tra xem có trường 'result' trong dữ liệu trả về không
-        if isinstance(raw_api_data, dict) and "result" in raw_api_data:
-            api_data = raw_api_data["result"]
-            print(f"DEBUG: Đã lấy thành công {len(api_data)} bệnh viện từ trường 'result' của API.")
-            return api_data
+        if isinstance(raw_hospital_data, dict) and "result" in raw_hospital_data:
+            hospitals_data = raw_hospital_data["result"]
+            print(f"DEBUG: Đã lấy thành công {len(hospitals_data)} bệnh viện từ trường 'result' của API.")
+            return hospitals_data
         else:
             # Xử lý trường hợp cấu trúc JSON khác hoặc không có trường 'result'
-            print(f"WARNING: API trả về dữ liệu không có trường 'result' hoặc không phải là dict: {raw_api_data}")
+            print(f"WARNING: API trả về dữ liệu không có trường 'result' hoặc không phải là dict: {raw_hospital_data}")
             # Thử trả về toàn bộ raw_api_data nếu nó đã là một list
-            if isinstance(raw_api_data, list):
+            if isinstance(raw_hospital_data, list):
                 print("DEBUG: API trả về trực tiếp một danh sách. Sử dụng toàn bộ dữ liệu.")
-                return raw_api_data
+                return raw_hospital_data
             else:
                 # Nếu không phải dict có 'result' và cũng không phải list, trả về rỗng hoặc mẫu
                 print("ERROR: Cấu trúc dữ liệu API không mong muốn. Trả về dữ liệu mẫu.")
