@@ -2,13 +2,13 @@ import math
 from typing import Dict, Any, Optional
 from google.adk.tools import ToolContext
 from hospital_booking_agent.shared_libraries.api_constants import *
-from hospital_booking_agent.tools.api_tools import fetch_hospital_from_api
+from hospital_booking_agent.tools.api_tools import fetch_hospital_data
 
 
 """Hospitals use for location tool to get position of hospitals"""
 
 #Dữ liệu Hospital
-list_hospitals = fetch_hospital_from_api(HOSPITALS_API)
+list_hospitals = fetch_hospital_data(HOSPITALS_API)
 
 # Hàm tính khoảng cách giữa hai điểm dựa trên vĩ độ và kinh độ (Haversine formula)
 def _calculate_distance(lat1, lon1, lat2, lon2):
