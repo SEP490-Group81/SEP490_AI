@@ -1,7 +1,14 @@
 from google.adk.agents import Agent
-from google.adk.tools.agent_tool import AgentTool
 from hospital_booking_agent.sub_agents.plan_agent import prompt
 from hospital_booking_agent.shared_libraries import types
+from hospital_booking_agent.tools.step_loader import get_service_config_file
+import requests
+
+def get_specialties_by_hospital() -> list[dict]:
+    url = f"https://sep490-dabs-gsdjgbfbdgd8gkbb.eastasia-01.azurewebsites.net/api/v1/specialization"
+    response = requests.get(url)
+    response.raise_for_status()
+    return response.json()
 
 specialty_tool = Agent(
     model="gemini-2.0-flash-001",
@@ -9,7 +16,7 @@ specialty_tool = Agent(
     description="Chọn chuyên khoa phù hợp dựa trên lý do khám của bệnh nhân",
     instruction=prompt.SPECIALTY_SELECTION_AGENT_INSTR,
     input_schema=types.SpecialtyInput,
-    output_schema= types.SpecialtyOutput
+    tools=[get_specialties_by_hospital]
 )
 
 timeline_tool = Agent(
@@ -18,7 +25,6 @@ timeline_tool = Agent(
     description="Đề xuất khung giờ khám dựa trên chuyên khoa và bệnh viện",
     instruction=prompt.TIMELINE_SELECTION_AGENT_INSTR,
     input_schema= types.TimelineInput,
-    output_schema= types.TimelineOutput
 )
 
 doctor_tool = Agent(
@@ -27,14 +33,13 @@ doctor_tool = Agent(
     description="Chọn bác sĩ dựa trên chuyên khoa và tiêu chí",
     instruction=prompt.DOCTOR_SELECTION_AGENT_INSTR,
     input_schema= types.DoctorInput,
-    output_schema= types.DoctorOutput
-)
+    )
 
 hospital_services_agent = Agent(
     model="gemini-2.0-flash-001",
     name="hospital_services_agent",
-    description="Lấy danh sách dịch vụ khám tương ứng với bệnh viện được chọn",
+    description="Tác nhân này sẽ cung cấp các dịch vụ của bệnh viện dựa trên cấu hình đã được tải",
     instruction=prompt.HOSPITAL_SERVICES_AGENT_INSTR,
     input_schema= types.HospitalServicesInput,
-    output_schema= types.HospitalServicesOutput
+    tools=[get_service_config_file]
 )

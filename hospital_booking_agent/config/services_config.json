@@ -1,21 +1,50 @@
 {
-  "by_doctor": {
-    "name": "Đặt khám theo bác sĩ",
-    "steps": ["select_specialty", "select_doctor", "select_timeline"]
+  "21": {
+    "name": "Dịch vụ khám theo chuyên khoa",
+    "steps": [
+      "select_specialty",
+      "select_doctor",
+      "select_timeline"
+    ]
   },
-  "general_checkup": {
-    "name": "Khám tổng quát",
-    "steps": ["select_timeline"]
-  },
-  "specialist_consultation": {
-    "name": "Khám chuyên khoa",
-    "steps": ["select_specialty", "select_timeline"]
-  },
-  "expert_consultation": {
+  "20": {
     "name": "Khám chuyên gia",
-    "steps": ["select_specialty", "select_doctor", "select_timeline"],
-    "constraints": {
-      "include_titles": ["Giáo sư", "Phó Giáo sư"]
-    }
+    "steps": [
+      "select_specialty",
+      "select_doctor",
+      "select_timeline"
+    ]
+  },
+  "19": {
+    "name": "Khám tổng quát",
+    "steps": [
+      "select_doctor",
+      "select_timeline",
+      "select_specialty"
+    ]
+  },
+  "7": {
+    "name": "Khám tự chọn bác sĩ",
+    "steps": [
+      "select_specialty",
+      "select_doctor",
+      "select_timeline"
+    ]
+  },
+  "22": {
+    "name": "string",
+    "steps": [
+      "select_specialty",
+      "select_doctor",
+      "select_timeline"
+    ]
+  },
+  "23": {
+    "name": "test dịch vụ sau update",
+    "steps": [
+      "select_specialty",
+      "select_doctor",
+      "select_timeline"
+    ]
   }
 }
