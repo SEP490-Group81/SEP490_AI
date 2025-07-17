@@ -1,4 +1,5 @@
 from google.adk.agents import Agent
+from hospital_booking_agent.tools.step_loader import get_services_config
 from hospital_booking_agent.sub_agents.plan_agent import prompt
 from hospital_booking_agent.shared_libraries import types
 from hospital_booking_agent.tools.step_loader import get_service_config_file
@@ -40,6 +41,6 @@ hospital_services_agent = Agent(
     name="hospital_services_agent",
     description="Tác nhân này sẽ cung cấp các dịch vụ của bệnh viện dựa trên cấu hình đã được tải",
     instruction=prompt.HOSPITAL_SERVICES_AGENT_INSTR,
-    input_schema= types.HospitalServicesInput,
-    tools=[get_service_config_file]
+    tools=[get_services_config],
+    input_schema= types.HospitalServicesInput
 )

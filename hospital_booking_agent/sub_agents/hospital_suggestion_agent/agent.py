@@ -4,10 +4,8 @@ from hospital_booking_agent.sub_agents.hospital_suggestion_agent import prompt
 from google.adk.tools.agent_tool import AgentTool
 from google.adk.tools.retrieval.vertex_ai_rag_retrieval import VertexAiRagRetrieval
 from vertexai.preview import rag
-from hospital_booking_agent.shared_libraries.types import SymtomInputSchema
-from hospital_booking_agent.shared_libraries.types import json_response_config
 from hospital_booking_agent.shared_libraries.api_constants import *
-from hospital_booking_agent.tools.hospitals import hos_location_tool
+from hospital_booking_agent.tools.hospitals import hos_location_tool, hos_select_tool
 
 
 get_symptoms_agent = VertexAiRagRetrieval(

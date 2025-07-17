@@ -3,6 +3,7 @@ from typing import Dict, Any, Optional
 from google.adk.tools import ToolContext
 from hospital_booking_agent.shared_libraries.api_constants import *
 from hospital_booking_agent.tools.api_tools import fetch_hospital_data
+from difflib import get_close_matches
 
 
 """Hospitals use for location tool to get position of hospitals"""
@@ -78,3 +79,51 @@ def hos_location_tool(
                 found_hospitals.append(hospital)
 
     return found_hospitals
+
+def hos_select_tool(
+    user_input: str,
+    tool_context: Optional[ToolContext] = None
+) -> Dict[str, Any]:
+    """
+    Tool để user chọn bệnh viện bằng tên. 
+    """
+    key = user_input.strip().lower()
+
+    name_to_hospital = {h["name"].lower(): h for h in list_hospitals}
+
+    print(f"DEBUG: list_hospitals: {name_to_hospital}")
+    print(f"DEBUG: key: {key}")
+
+    if key in name_to_hospital:
+        selected = name_to_hospital[key]
+        if tool_context:
+            tool_context.state["selected_hospital_id"] = selected["id"]
+        return {
+            "message": f"Bạn đã chọn: {selected['name']} (ID={selected['id']})",
+            "hospital": selected
+        }
+
+    names = list(name_to_hospital.keys())
+    matches = get_close_matches(key, names, n=3, cutoff=0.6)
+
+    if not matches:
+        return {
+            "error": "Không tìm thấy bệnh viện nào trùng hoặc gần giống tên bạn nhập."
+        }
+
+    if len(matches) > 1:
+        return {
+            "ambiguous": True,
+            "candidates": matches
+        }
+    
+    matched = matches[0]
+    selected = name_to_hospital[matched]
+
+    if tool_context:
+        tool_context.state["selected_hospital_id"] = selected["id"]
+
+    return {
+        "message": f"Bạn đã chọn: {selected['name']} (ID={selected['id']})",
+        "hospital": selected
+    }
