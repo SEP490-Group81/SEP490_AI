@@ -10,7 +10,6 @@ from google.adk.sessions.state import State
 from google.adk.tools import ToolContext
 
 from hospital_booking_agent.shared_libraries import constants
-from hospital_booking_agent.tools.step_loader import init_config_file
 
 SAMPLE_SCENARIO_PATH = os.getenv(
     "HOSPITAL_BOOKING_AGENT_SCENARIO", "hospital_booking_agent/config/itinerary_empty_default.json"
@@ -104,8 +103,7 @@ def _load_precreated_itinerary(callback_context: CallbackContext):
 
     Args:
         callback_context: The callback context.
-    """    
-    init_config_file()
+    """
     data = {}
     with open(SAMPLE_SCENARIO_PATH, "r") as file:
         data = json.load(file)

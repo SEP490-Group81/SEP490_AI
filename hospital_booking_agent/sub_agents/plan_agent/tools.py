@@ -1,23 +1,15 @@
 from google.adk.agents import Agent
-from hospital_booking_agent.tools.step_loader import get_services_config
+from hospital_booking_agent.tools.step_loader import get_services_config, get_specialization_by_hospital
 from hospital_booking_agent.sub_agents.plan_agent import prompt
 from hospital_booking_agent.shared_libraries import types
-from hospital_booking_agent.tools.step_loader import get_service_config_file
 import requests
 
-def get_specialties_by_hospital() -> list[dict]:
-    url = f"https://sep490-dabs-gsdjgbfbdgd8gkbb.eastasia-01.azurewebsites.net/api/v1/specialization"
-    response = requests.get(url)
-    response.raise_for_status()
-    return response.json()
-
-specialty_tool = Agent(
+specialization_tool = Agent(
     model="gemini-2.0-flash-001",
-    name="specialty_selection",
+    name="specialization_selection",
     description="Chọn chuyên khoa phù hợp dựa trên lý do khám của bệnh nhân",
-    instruction=prompt.SPECIALTY_SELECTION_AGENT_INSTR,
-    input_schema=types.SpecialtyInput,
-    tools=[get_specialties_by_hospital]
+    instruction=prompt.specialization_selection_AGENT_INSTR,
+    tools=[get_specialization_by_hospital]
 )
 
 timeline_tool = Agent(

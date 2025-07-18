@@ -17,7 +17,11 @@
     },
     "selected_hospital": "",
     "selected_service": "",
+    "selected_specialization": "",
     "selected_doctor": "",
+    "selected_timeline": "",
+    "services_config": "",
+    "specialization_config": "",
     "selected_appointment_time": "",
     "patient_profile_confirmed": false
   }
