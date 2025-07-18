@@ -20,8 +20,9 @@
     "selected_specialization": "",
     "selected_doctor": "",
     "selected_timeline": "",
-    "services_config": "",
-    "specialization_config": "",
+    "services_list": "",
+    "specialization_list": "",
+    "doctor_list": "", 
     "selected_appointment_time": "",
     "patient_profile_confirmed": false
   }

@@ -6,7 +6,7 @@ from typing import Optional
 from google.adk.tools import ToolContext
 
 agent_root = Path(__file__).resolve().parent.parent
-config_file = agent_root / "config" / "services_config.json"
+config_file = agent_root / "config" / "services_list.json"
 
 API_BASE_URL = "https://localhost:8175/api/v1"
 JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWRlbnRpZmllciI6IjEiLCJlbWFpbCI6ImFkbWluQGhvc3RuYW1lLmNvbSIsImZ1bGxOYW1lIjoiU3VwZXIgVXNlciIsIm5hbWUiOiJTdXBlciIsInN1cm5hbWUiOiJVc2VyIiwiaXBBZGRyZXNzIjoiMC4wLjAuMSIsImF2YXRhclVybCI6IiIsIm1vYmlsZXBob25lIjoiIiwiZXhwIjoxNzgxMjcwNDgzLCJpc3MiOiJodHRwczovL0JFLlNFUDQ5MC5uZXQiLCJhdWQiOiJCRS5TRVA0OTAifQ.kQIX9uvjN9UOPiBitp9JsO2DlPlFyIU4VTP1ZyM4k3Y"
@@ -16,32 +16,6 @@ HEADERS = {
     "Content-Type": "application/json",
     "Accept": "application/json"
 }
-
-def tools_for_service(service_id: str, tool_context: Optional[ToolContext] = None):
-    tool_map = {
-        "select_specialty": "specialization_tool",
-        "select_doctor": "doctor_tool",
-        "select_timeline": "timeline_tool"
-    }
-
-    if not tool_context:
-        raise ValueError("tool_context is required")
-
-    if tool_context:
-        tool_context.state["selected_service"] = service_id
-    cfg = tool_context.state.get("services_config")
-    if not cfg:
-        raise ValueError("Missing 'services_config' in tool_context.state")
-
-    svc_cfg = cfg.get(service_id, {})
-    if not svc_cfg:
-        raise ValueError(f"Service config for service_id '{service_id}' not found in services_config")
-
-    steps = svc_cfg.get("steps", [])
-    step_tools = [tool_map[step] for step in steps if step in tool_map]
-
-    print(f"DEBUG: tools_for_service({service_id}) -> steps: {steps} -> tools: {step_tools}")
-    return {"steps": step_tools}
 
 def fetch_services(hospital_id: str) -> List[Dict[str, Any]]:
     resp = requests.get(f"{API_BASE_URL}/hospitals/{hospital_id}/services", headers=HEADERS, verify=False)
@@ -53,7 +27,7 @@ def fetch_service_steps(service_id: int) -> List[Dict[str, Any]]:
     resp.raise_for_status()
     return resp.json()
 
-def get_services_config(tool_context: Optional[ToolContext] = None):
+def get_services_list(tool_context: Optional[ToolContext] = None):
     hospital_id = tool_context.state.get("selected_hospital") if tool_context else None
 
     STEP_TYPE_CODE_MAP = {
@@ -91,7 +65,7 @@ def get_services_config(tool_context: Optional[ToolContext] = None):
         }
 
     if tool_context:
-        tool_context.state["services_config"] = config
+        tool_context.state["services_list"] = config
     print(f"DEBUG: config content: {config}")
     return config
 
@@ -122,5 +96,86 @@ def get_specialization_by_hospital(tool_context: Optional[ToolContext] = None):
         }
 
     print(f"DEBUG: specialization data = {structured}")
-    tool_context.state["specialization_config"] = structured
+    tool_context.state["specialization_list"] = structured
     return structured
+
+def get_doctor_list(tool_context: Optional[ToolContext] = None)  -> List[Dict[str, Any]]:
+    if not tool_context:
+        raise ValueError("tool_context is required")
+    
+    hospital_id = tool_context.state.get("selected_hospital")
+    if not hospital_id:
+        raise ValueError("Missing 'selected_hospital' in tool_context.state")
+    print(f"DEBUG: hospital_id = {hospital_id}")
+
+    specialization_id = tool_context.state.get("selected_specialization")
+    print(f"DEBUG: specialization_id = {specialization_id}")
+
+    resp = {}
+    if not specialization_id:
+        resp = requests.get(f"{API_BASE_URL}/doctors/by_hospital/{hospital_id}", headers=HEADERS, verify=False)
+        resp.raise_for_status()
+
+    else:
+        resp = requests.get(f"{API_BASE_URL}/hospitals/{hospital_id}/doctors/by-specialization/{specialization_id}", headers=HEADERS, verify=False)
+        resp.raise_for_status()
+    
+    data = resp.json()
+    raw_list = data.get("result", [])
+
+    doctors: List[Dict[str, Any]] = []
+    for item in raw_list:
+        user = item.get("user", {})
+        
+        raw_quals = item.get("qualification", [])
+        quals = []
+        for q in raw_quals:
+            quals.append({
+                "id": q.get("id"),
+                "qualificationName": q.get("qualificationName") or q.get("qualification_name") or "",
+                "instituteName": q.get("instituteName") or q.get("institute_name") or "",
+                "procurementYear": q.get("procurementYear") or q.get("procurement_year") or None
+            })
+        raw_specs = item.get("specializations", [])
+        specs = []
+        for s in raw_specs:
+            specs.append({
+                "id": s.get("id"),
+                "name": s.get("name", ""),
+                "description": s.get("description", "")
+            })
+        
+        doctors.append({
+            "id": item.get("id"),
+            "userName": user.get("userName") or user.get("username") or "",
+            "description": item.get("description", ""),
+            "fullname": user.get("fullname") or user.get("fullName") or "",
+            "avatarUrl": user.get("avatarUrl") or user.get("avatar_url") or "",
+            "qualification": quals,
+            "specializations": specs
+        })
+    print(f"DEBUG: data doctor = {doctors}")
+    tool_context.state["doctor_list"] = doctors
+    return doctors
+
+def get_timeline_list(tool_context: Optional[ToolContext] = None): 
+    if not tool_context:
+        raise ValueError("tool_context is required")
+    
+    hospital_id = tool_context.state.get("selected_hospital")
+    if not hospital_id:
+        raise ValueError("Missing 'selected_hospital' in tool_context.state")
+    print(f"DEBUG: hospital_id = {hospital_id}")
+
+    specialization_id = tool_context.state.get("selected_specialization")
+    print(f"DEBUG: specialization_id = {specialization_id}")
+
+    doctor_id = tool_context.state.get("selected_doctor")
+    print(f"DEBUG: doctor_id = {doctor_id}")
+
+    if(not doctor_id and not specialization_id):
+        resp = requests.get(f"{API_BASE_URL}/hospitals/{hospital_id}/doctors/timeline", headers=HEADERS, verify=False)
+    elif(not doctor_id and specialization_id):
+        resp = requests.get(f"{API_BASE_URL}/hospitals/{hospital_id}/doctors/by-specialization/{specialization_id}/timeline", headers=HEADERS, verify=False)
+    else:
+        resp = requests.get(f"{API_BASE_URL}/doctors/{doctor_id}/timeline", headers=HEADERS, verify=False)
