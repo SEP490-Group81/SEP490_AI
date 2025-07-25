@@ -97,7 +97,7 @@ def hos_select_tool(
     if key in name_to_hospital:
         selected = name_to_hospital[key]
         if tool_context:
-            tool_context.state["selected_hospital"] = selected["id"]
+            tool_context.state["selected_hospital"] = str(selected["id"])
         return {
             "message": f"Bạn đã chọn: {selected['name']} (ID={selected['id']})",
             "hospital": selected
@@ -121,7 +121,7 @@ def hos_select_tool(
     selected = name_to_hospital[matched]
 
     if tool_context:
-        tool_context.state["selected_hospital"] = selected["id"]
+        tool_context.state["selected_hospital"] = str(selected["id"])
 
     return {
         "message": f"Bạn đã chọn: {selected['name']} (ID={selected['id']})",

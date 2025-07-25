@@ -4,11 +4,13 @@ from typing import Dict, Any, List
 from pathlib import Path
 from typing import Optional
 from google.adk.tools import ToolContext
+from dateutil import parser
+from datetime import datetime, timezone, time, timedelta
 
 agent_root = Path(__file__).resolve().parent.parent
 config_file = agent_root / "config" / "services_list.json"
 
-API_BASE_URL = "https://localhost:8175/api/v1"
+API_BASE_URL = "https://sep490-dabs-gsdjgbfbdgd8gkbb.eastasia-01.azurewebsites.net/api/v1"
 JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWRlbnRpZmllciI6IjEiLCJlbWFpbCI6ImFkbWluQGhvc3RuYW1lLmNvbSIsImZ1bGxOYW1lIjoiU3VwZXIgVXNlciIsIm5hbWUiOiJTdXBlciIsInN1cm5hbWUiOiJVc2VyIiwiaXBBZGRyZXNzIjoiMC4wLjAuMSIsImF2YXRhclVybCI6IiIsIm1vYmlsZXBob25lIjoiIiwiZXhwIjoxNzgxMjcwNDgzLCJpc3MiOiJodHRwczovL0JFLlNFUDQ5MC5uZXQiLCJhdWQiOiJCRS5TRVA0OTAifQ.kQIX9uvjN9UOPiBitp9JsO2DlPlFyIU4VTP1ZyM4k3Y"
 
 HEADERS = {
@@ -113,7 +115,7 @@ def get_doctor_list(tool_context: Optional[ToolContext] = None)  -> List[Dict[st
 
     resp = {}
     if not specialization_id:
-        resp = requests.get(f"{API_BASE_URL}/doctors/by_hospital/{hospital_id}", headers=HEADERS, verify=False)
+        resp = requests.get(f"{API_BASE_URL}/doctors/by-hospital/{hospital_id}", headers=HEADERS, verify=False)
         resp.raise_for_status()
 
     else:
@@ -158,24 +160,59 @@ def get_doctor_list(tool_context: Optional[ToolContext] = None)  -> List[Dict[st
     tool_context.state["doctor_list"] = doctors
     return doctors
 
-def get_timeline_list(tool_context: Optional[ToolContext] = None): 
+def get_timeline_list(date_from: str, date_to: str, tool_context: Optional[ToolContext] = None): 
+    """
+    Trả về danh sách các khung giờ khám của bác sĩ trong khoảng thời gian nhất định.
+
+    Args:
+        date_from: là chỉ số chứa thông tin về ngày bắt đầu để lọc khung giờ khám (YYYY‑MM‑DD format).
+        date_to: là chỉ số chứa thông tin về ngày kết thúc để lọc khung giờ khám (YYYY‑MM‑DD format).
+        tool_context: là ngữ cảnh công cụ ADK, chứa thông tin về bệnh viện, chuyên khoa và bác sĩ đã chọn.
+
+    Returns:
+        Danh sách các khung giờ khám.
+    """
     if not tool_context:
         raise ValueError("tool_context is required")
     
-    hospital_id = tool_context.state.get("selected_hospital")
+    hospital_id = int(tool_context.state.get("selected_hospital"))
     if not hospital_id:
         raise ValueError("Missing 'selected_hospital' in tool_context.state")
     print(f"DEBUG: hospital_id = {hospital_id}")
 
-    specialization_id = tool_context.state.get("selected_specialization")
+    specialization_id = int(tool_context.state.get("selected_specialization"))
     print(f"DEBUG: specialization_id = {specialization_id}")
 
-    doctor_id = tool_context.state.get("selected_doctor")
+    doctor_id = int(tool_context.state.get("selected_doctor"))
     print(f"DEBUG: doctor_id = {doctor_id}")
 
-    if(not doctor_id and not specialization_id):
-        resp = requests.get(f"{API_BASE_URL}/hospitals/{hospital_id}/doctors/timeline", headers=HEADERS, verify=False)
-    elif(not doctor_id and specialization_id):
-        resp = requests.get(f"{API_BASE_URL}/hospitals/{hospital_id}/doctors/by-specialization/{specialization_id}/timeline", headers=HEADERS, verify=False)
-    else:
-        resp = requests.get(f"{API_BASE_URL}/doctors/{doctor_id}/timeline", headers=HEADERS, verify=False)
+    payload = {
+        "doctorIds": [doctor_id] or [],
+        "specializationId": specialization_id or None,
+        "dateFrom": parse_to_iso_date(date_from) or datetime.now(timezone.utc),
+        "dateTo": parse_to_iso_date(date_to) or datetime.now(timezone.utc) + timedelta(days=30)
+    }
+    print(f"DEBUG: payload = {payload}")
+    url = f"{API_BASE_URL}/schedules/{hospital_id}/hospital/specialization"
+    resp = requests.post(url, json=payload, headers=HEADERS, verify=False)
+    resp.raise_for_status()
+    data = resp.json()
+    print(f"DEBUG: timeline result = {data}")
+    tool_context.state["timeline_list"] = data
+    return data
+    
+
+def parse_to_iso_date(user_input: str) -> str:
+    """
+    Nhận chuỗi đầu vào là ngày (ví dụ '24/7/2025', 'July 24 2025').
+    Trả về ISO timestamp: YYYY‑MM‑DDT00:00:00.000Z (không quan tâm giờ).
+    """
+    dt = parser.parse(user_input, dayfirst=True,
+                      default=datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0))
+    dt = datetime.combine(dt.date(), time(0, 0, 0, tzinfo=dt.tzinfo))
+    if dt.tzinfo is None:
+        from dateutil import tz
+        dt = dt.replace(tzinfo=tz.UTC)
+    # Xuất ISO có Z
+    iso_str = dt.isoformat(timespec='milliseconds').replace('+00:00', 'Z')
+    return iso_str

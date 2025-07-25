@@ -1,5 +1,5 @@
 from google.adk.agents import Agent
-from hospital_booking_agent.tools.step_loader import get_services_list, get_specialization_by_hospital, get_doctor_list
+from hospital_booking_agent.tools.step_loader import get_services_list, get_specialization_by_hospital, get_doctor_list, get_timeline_list
 from hospital_booking_agent.sub_agents.plan_agent import prompt
 
 specialization_tool = Agent(
@@ -15,6 +15,7 @@ timeline_tool = Agent(
     name="timeline_selection",
     description="Đề xuất khung giờ khám dựa trên chuyên khoa và bệnh viện",
     instruction=prompt.TIMELINE_SELECTION_AGENT_INSTR,
+    tools=[get_timeline_list]
 )
 
 doctor_tool = Agent(

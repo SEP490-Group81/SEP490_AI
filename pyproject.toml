@@ -17,6 +17,8 @@ google-cloud-storage = "^2.19.0"
 google-adk = "^1.0.0"
 google-cloud-aiplatform = { extras = ["adk", "agent-engines"], version = "^1.93.0" }
 llama-index = "^0.12"
+python-dateutil = "^2.9.0.post0"
+isodate = "^0.7.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"

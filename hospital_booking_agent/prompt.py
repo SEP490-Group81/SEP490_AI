@@ -13,7 +13,8 @@ ROOT_AGENT_INSTR = """
     3. booking_agent (xác nhận đặt lịch khám sau khi hoàn thành các bước trên)
 - Chỉ thu thập thông tin tối thiểu cần thiết tại mỗi bước.
 - Sau mỗi lần gọi đến tác nhân phụ hoặc công cụ, hãy mô phỏng việc hiển thị kết quả cho người dùng bằng một câu ngắn (ví dụ: “Đây là các bệnh viện gần bạn.”).
-- Chỉ sử dụng các tác nhân và công cụ sau để xử lý yêu cầu:
+- Chỉ sử dụng các tác nhân và công cụ sau để xử lý yêu cầu
+- các bước gọi `memorize` là bắt buộc để lưu thông tin vào state của tool_context, không được bỏ trong bất kì trường hợp nào.
 
 Quy tắc phân quyền:
 - Nếu người dùng nói về triệu chứng, bệnh lý muốn tìm hiểu, chuyển đến **hospital_suggestion_agent** để phân tích triệu chứng và gợi ý các bệnh lý có thể gặp.
