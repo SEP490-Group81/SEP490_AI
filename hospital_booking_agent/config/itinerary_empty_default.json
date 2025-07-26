@@ -23,6 +23,8 @@
     "services_list": "",
     "specialization_list": "",
     "doctor_list": "", 
-    "timeline_list": ""
+    "timeline_list": "",
+    "appointment_date":"",
+    "display_slot_time":""
   }
 }

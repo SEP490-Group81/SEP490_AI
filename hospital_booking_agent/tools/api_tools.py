@@ -4,47 +4,6 @@ import json
 from hospital_booking_agent.shared_libraries.api_constants import *
 """API_Tools use for get data from API."""
 
-#Hàm xử lý phản hồi API
-def _handle_api_response(response: requests.Response, action_name: str) -> Dict[str, Any]:
-    """
-    Hàm hỗ trợ để xử lý phản hồi từ API, kiểm tra lỗi HTTP và trả về dữ liệu JSON
-    hoặc thông báo lỗi.
-    """
-    try:
-        response.raise_for_status()  # Ném lỗi cho các mã trạng thái HTTP 4xx/5xx
-        return {
-            "status": "success",
-            "data": response.json()
-        }
-    except requests.exceptions.HTTPError as e:
-        print(f"Lỗi HTTP khi {action_name}: {e}")
-        print(f"Phản hồi từ API: {response.text}")
-        return {
-            "status": "error",
-            "message": f"Lỗi API khi {action_name}: {e}",
-            "response_text": response.text,
-            "status_code": response.status_code
-        }
-    except requests.exceptions.RequestException as e:
-        print(f"Lỗi kết nối khi {action_name}: {e}")
-        return {
-            "status": "error",
-            "message": f"Lỗi kết nối API khi {action_name}: {e}"
-        }
-    except json.JSONDecodeError:
-        print(f"Lỗi giải mã JSON từ phản hồi {action_name}: {response.text}")
-        return {
-            "status": "error",
-            "message": f"Phản hồi không phải JSON hợp lệ khi {action_name}",
-            "response_text": response.text
-        }
-    except Exception as e:
-        print(f"Lỗi không xác định khi xử lý phản hồi {action_name}: {e}")
-        return {
-            "status": "error",
-            "message": f"Lỗi không xác định khi xử lý phản hồi API: {e}"
-        }
-
 #Hàm GET Hospitals Data 
 def fetch_hospital_data(api_url: str) -> List[Dict[str, Any]]:
     """
@@ -92,11 +51,15 @@ def fetch_hospital_data(api_url: str) -> List[Dict[str, Any]]:
 
 #Hàm POST Đặt Lịch Khám
 def create_appointment(
-    hospital_id: str,
-    service_id: str,
-    doctor_id: str,
-    slot_time: str,
-    patient_profile: Dict[str, Any]
+    hospital_id: int,
+    service_id: int,
+    specialization_id: int,
+    doctor_id: int,
+    appointment_date: str,
+    slot_time: int,
+    payment_method: int,
+    note: str,
+    token: str # Thêm api_key làm đối số
 ) -> Dict[str, Any]:
     """
     Gọi API của bệnh viện để hoàn tất việc đặt lịch hẹn.
@@ -105,40 +68,43 @@ def create_appointment(
     endpoint = BOOKING_API
     headers = {
         "Content-Type": "application/json",
-        # Sử dụng API Key của bạn. Ví dụ: "Authorization": f"Bearer {YOUR_API_KEY}"
-        # Hoặc "X-API-Key": KEY_API tùy theo yêu cầu của API
-        "Authorization": f"Bearer {KEY_API}"
+        "Authorization": f"Bearer {token}" # Sử dụng api_key được truyền vào
     }
     payload = {
-        "hospitalId": hospital_id, 
+        "hospitalId": hospital_id,
         "serviceId": service_id,
+        "specializationId": specialization_id,
         "doctorId": doctor_id,
+        "appointmentDate": appointment_date,
         "slotTime": slot_time,
-        "patientInfo": patient_profile # Gửi thông tin bệnh nhân đã xác nhận
+        "paymentMethod": payment_method,
+        "note": note
     }
 
     print(f"Đang gọi API POST tạo cuộc hẹn tại: {endpoint} với dữ liệu: {json.dumps(payload, indent=2)}")
     try:
-        response = requests.post(endpoint, headers=headers, json=payload, timeout=30) # Thêm timeout
-        return _handle_api_response(response, "tạo cuộc hẹn")
+        response = requests.post(endpoint, headers=headers, json=payload, timeout=30)
+        response.raise_for_status()
+        return response.json()
     except Exception as e:
         return {"status": "error", "message": f"Lỗi không xác định khi gọi API tạo cuộc hẹn: {e}"}
 
 #Hàm GET Patient Data
-def fetch_patient_profile(patient_id: str) -> Dict[str, Any]:
+def get_patient_profile(patient_id: str, token: str) -> Dict[str, Any]: #
     """
     Truy xuất hồ sơ đã lưu của bệnh nhân từ API.
     Chỉ tập trung vào việc gửi yêu cầu GET và trả về kết quả thô từ API.
     """
     endpoint = f"{PATIENT_API}/{patient_id}"
     headers = {
-        "Authorization": f"Bearer {KEY_API}", # Hoặc cách xác thực API của bạn
+        "Authorization": f"Bearer {token}", 
         "Accept": "application/json"
     }
 
     print(f"Đang gọi API GET lấy hồ sơ bệnh nhân từ: {endpoint}")
     try:
-        response = requests.get(endpoint, headers=headers, timeout=10) # Thêm timeout
-        return _handle_api_response(response, "lấy hồ sơ bệnh nhân")
+        response = requests.get(endpoint, headers=headers, timeout=10)
+        response.raise_for_status()
+        return response.json()
     except Exception as e:
         return {"status": "error", "message": f"Lỗi không xác định khi gọi API lấy hồ sơ bệnh nhân: {e}"}

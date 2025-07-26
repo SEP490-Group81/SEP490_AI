@@ -6,6 +6,7 @@ from google.genai.types import GenerateContentConfig
 from hospital_booking_agent.sub_agents.booking_agent import prompt
 from hospital_booking_agent.tools.api_tools import *
 from hospital_booking_agent.tools.bookings import *
+from hospital_booking_agent.tools.memory import memorize
 
 
 
@@ -15,9 +16,9 @@ booking_agent = Agent(
     description="A Doctor Booking Appointment Assistant that finalizes the booking process.",
     instruction=prompt.BOOKING_AGENT_INSTR,
     tools=[
+        memorize,
         fetch_patient_profile,
-        confirm_patient_info,
-        create_appointment
+        book_appointment
     ],
     generate_content_config=GenerateContentConfig(
         temperature=0.0, top_p=0.5
