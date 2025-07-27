@@ -6,20 +6,20 @@ requires-python = ">=3.11"
 [tool.poetry.dependencies]
 python = "^3.11"
 pydantic = "^2.10.6"
-pydantic-settings = "^2.8.1"
 python-dotenv = "^1.0.1"
-tabulate = "^0.9.0"
 requests = "^2.32.3"
 google-auth = "^2.36.0"
 google-genai = "^1.16.1"
-deprecated = "^1.2.18"
 google-cloud-storage = "^2.19.0"
 google-adk = "^1.0.0"
 google-cloud-aiplatform = { extras = ["adk", "agent-engines"], version = "^1.93.0" }
-llama-index = "^0.12"
 python-dateutil = "^2.9.0.post0"
-isodate = "^0.7.2"
 pyjwt = "^2.10.1"
+pydantic-settings = "^2.10.1"
+tabulate = "^0.9.0"
+deprecated = "^1.2.18"
+llama-index = "^0.12.52"
+isodate = "^0.7.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
@@ -29,6 +29,7 @@ pytest-asyncio = "^0.26.0"
 scikit-learn = "^1.6.1"
 black = "^25.1.0"
 google-adk = { version = "^1.0.0", extras = ["eval"] }
+deptry = "^0.23.0"
 
 [tool.poetry.group.deployment]
 optional = true

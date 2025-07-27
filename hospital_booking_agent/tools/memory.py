@@ -1,6 +1,6 @@
 """The 'memorize' tool for several agents to affect session states."""
 
-from datetime import datetime, timezone
+from datetime import datetime
 import json
 import os
 from typing import Dict, Any

@@ -1,7 +1,6 @@
 """Booking agent and sub-agents, handling the confirmation and payment of bookable events."""
 
 from google.adk.agents import Agent
-from google.adk.tools.agent_tool import AgentTool
 from google.genai.types import GenerateContentConfig
 from hospital_booking_agent.sub_agents.booking_agent import prompt
 from hospital_booking_agent.tools.api_tools import *

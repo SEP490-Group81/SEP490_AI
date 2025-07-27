@@ -1,5 +1,5 @@
 import requests
-from typing import Dict, List, Any, Optional
+from typing import Dict, List, Any
 import json
 from hospital_booking_agent.shared_libraries.api_constants import *
 """API_Tools use for get data from API."""

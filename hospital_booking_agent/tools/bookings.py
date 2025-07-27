@@ -1,4 +1,4 @@
-from typing import Dict, List, Any, Optional
+from typing import Optional
 from hospital_booking_agent.tools.api_tools import get_patient_profile, create_appointment
 from hospital_booking_agent.sub_agents.booking_agent.token_test import *
 from google.adk.tools import ToolContext
