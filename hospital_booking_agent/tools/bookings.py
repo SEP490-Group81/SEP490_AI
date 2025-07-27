@@ -12,6 +12,7 @@ def fetch_patient_profile(
         tool_context: Optional[ToolContext] = None):
     patient_token = login_test()
     patient_id = decode_jwt_token(patient_token)
+    tool_context.state["patient_token"] = patient_token
     profile_response = get_patient_profile(patient_id, patient_token)
 
     if profile_response and profile_response.get("success"):
@@ -48,26 +49,14 @@ def fetch_patient_profile(
     else:
         print("Failed to fetch patient profile.")
         return None
-    
 
-def book_appointment(
-    hospital_id: int,
-    service_id: int,
-    specialization_id: Optional[int], 
-    doctor_id: Optional[int],         
-    appointment_date: str,
-    slot_time: int,                     
-    payment_method: int,
-    note: str,
-    token: str,
-    tool_context: Optional[ToolContext] = None): 
-    if not tool_context:
-        raise ValueError("tool_context is required")
-    
+def get_time_appoint(tool_context: Optional[ToolContext] = None):
     time_list = tool_context.state.get("timeline_list") if tool_context else None
     selected_timeline_id = tool_context.state.get("selected_timeline")
     appointment_date = None
     slot_time_work = None
+    display_slot_time = None
+    slot_time = None
     if time_list and "schedules" in time_list and selected_timeline_id is not None:
         for schedule in time_list["schedules"]:
             if schedule.get("id") == selected_timeline_id:
@@ -75,7 +64,6 @@ def book_appointment(
                 slot_time_work = schedule.get("startTime")
                 tool_context.state["appointment_date"] = appointment_date
                 break
-
     # Determine slot_time based on selected_slot name
     if slot_time_work == "7:30 - 11:30":
         slot_time = 1
@@ -89,10 +77,20 @@ def book_appointment(
         tool_context.state["slot_time"] = slot_time
     else:
         slot_time = None 
+    
+    return appointment_date, display_slot_time, slot_time
 
-    payment_method = 1
-    note = "AI Đặt Lịch Khám Hộ Người Dùng"
-    token = login_test()
-    tool_context.state["patient_token"] = token
-    create_appointment(hospital_id,service_id,specialization_id,doctor_id,appointment_date,slot_time,payment_method,note,token)
+
+def book_appointment(
+    hospital_id: int,
+    service_id: int,
+    specialization_id: Optional[int], 
+    doctor_id: Optional[int],         
+    appointment_date: str,
+    slot_time: int,                     
+    payment_method: int,
+    note: str,
+    token: str): 
+    data = create_appointment(hospital_id,service_id,specialization_id,doctor_id,appointment_date,slot_time,payment_method,note,token)
+    return data
 
