@@ -6,10 +6,17 @@ from hospital_booking_agent.tools.api_tools import fetch_hospital_data
 from difflib import get_close_matches
 
 
-"""Hospitals use for location tool to get position of hospitals"""
+"""hospitals use for location tool to get position of hospitals"""
 
 #Dữ liệu Hospital
-list_hospitals = fetch_hospital_data(HOSPITALS_API)
+_list_hospitals = None 
+
+def _get_hospitals_data():
+    global _list_hospitals 
+    if _list_hospitals is None: 
+        print("DEBUG: Lần đầu tiên tải dữ liệu bệnh viện từ API...")
+        _list_hospitals = fetch_hospital_data(HOSPITALS_API) 
+    return _list_hospitals
 
 # Hàm tính khoảng cách giữa hai điểm dựa trên vĩ độ và kinh độ (Haversine formula)
 def _calculate_distance(lat1, lon1, lat2, lon2):
@@ -42,6 +49,7 @@ def hos_location_tool(
                   tool_context: Optional[ToolContext] = None) -> list[Dict[str, Any]]:
 
     found_hospitals = []
+    list_hospitals_data = _get_hospitals_data()
 
     if tool_context:
         print(f"DEBUG: ToolContext state: {tool_context.state}")
@@ -51,7 +59,7 @@ def hos_location_tool(
     # TH2: Nếu người dùng CHO PHÉP truy cập vị trí (có lat, lon)
     if user_lat is not None and user_lon is not None:
         print(f"DEBUG: Tìm bệnh viện gần tọa độ: ({user_lat}, {user_lon}) trong bán kính {radius_km} km.")
-        for hospital in list_hospitals:
+        for hospital in list_hospitals_data:
             if hospital.get("latitude") is not None and hospital.get("longitude") is not None:
                 distance = _calculate_distance(user_lat, user_lon, hospital["latitude"], hospital["longitude"])
                 if distance <= radius_km:
@@ -69,7 +77,7 @@ def hos_location_tool(
         
         required_terms = set(search_terms)
 
-        for hospital in list_hospitals:
+        for hospital in list_hospitals_data:
             hospital_full_info = (
                 f"{hospital.get('name', '')} "
                 f"{hospital.get('address', '')} "
@@ -88,8 +96,9 @@ def hos_select_tool(
     Tool để user chọn bệnh viện bằng tên. 
     """
     key = user_input.strip().lower()
+    list_hospitals_data = _get_hospitals_data()
 
-    name_to_hospital = {h["name"].lower(): h for h in list_hospitals}
+    name_to_hospital = {h["name"].lower(): h for h in list_hospitals_data}
 
     print(f"DEBUG: list_hospitals: {name_to_hospital}")
     print(f"DEBUG: key: {key}")

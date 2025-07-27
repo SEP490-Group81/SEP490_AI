@@ -1,22 +1,20 @@
-from hospital_booking_agent.shared_libraries.types import PatientProfile
 from typing import Dict, List, Any, Optional
-from hospital_booking_agent.tools.api_tools import *
+from hospital_booking_agent.tools.api_tools import get_patient_profile, create_appointment
 from hospital_booking_agent.sub_agents.booking_agent.token_test import *
 from google.adk.tools import ToolContext
 
-"""Bookings is tools for Booking_Agent"""
+"""bookings is tool for booking_agent"""
 
 #Hàm lấy Patient Profile
 def fetch_patient_profile(
-        patient_id: str, 
-        patient_token: str,
+        # patient_id: str, 
+        # patient_token: str,
         tool_context: Optional[ToolContext] = None):
-    if not tool_context:
-        raise ValueError("tool_context is required")
     patient_token = login_test()
     patient_id = decode_jwt_token(patient_token)
     profile = get_patient_profile(patient_id,patient_token)
     return profile
+    
 
 def book_appointment(
         hospital_id: int,
@@ -61,3 +59,4 @@ def book_appointment(
     note = "AI Đặt Lịch Khám Hộ Người Dùng"
     token = login_test()
     create_appointment(hospital_id,service_id,specialization_id,doctor_id,appointment_date,slot_time,payment_method,note,token)
+

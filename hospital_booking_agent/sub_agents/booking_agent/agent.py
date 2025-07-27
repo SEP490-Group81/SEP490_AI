@@ -22,5 +22,6 @@ booking_agent = Agent(
     ],
     generate_content_config=GenerateContentConfig(
         temperature=0.0, top_p=0.5
-    )
+    ),
+    before_agent_callback=None
 )

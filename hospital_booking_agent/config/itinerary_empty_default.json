@@ -2,17 +2,13 @@
   "state": {
     "user_profile": {
       "patient_id": "",
-      "name": "",
+      "fullname": "",
       "dob": "",
-      "insurance_provider": "",
-      "medical_conditions": [],
-      "contact": {
-        "phone": "",
-        "email": ""
-      },
-      "home": {
-        "address": "6420 Sequence Dr #400, San Diego, CA 92121, United States",
-        "local_prefer_mode": "drive"
+      "gender": "",
+      "cccd": "",
+      "phone": "",
+      "email": "",
+      "address": ""
       }
     },
     "selected_hospital": "",
@@ -26,5 +22,4 @@
     "timeline_list": "",
     "appointment_date":"",
     "display_slot_time":""
-  }
 }

@@ -13,7 +13,7 @@ BOOKING_AGENT_INSTR = """
     • <display_slot_time/> (Ca hẹn là buổi sáng hay buổi chiều)
 
 - Ngược lại, nếu tất cả thông tin trên đã đầy đủ, hãy tiến hành các bước sau:
-  1. Gọi công cụ `fetch_patient_profile` để truy xuất thông tin cá nhân của bệnh nhân. Từ kết quả trả về, hãy lấy giá trị của trường `fullname` để sử dụng cho thông báo xác nhận.
+  1. Gọi công cụ `fetch_patient_profile` để truy xuất thông tin cá nhân của bệnh nhân.
   2. **Chỉ khi người dùng xác nhận thông tin cá nhân (bao gồm cả `fullname` đã lấy được) và thông tin đặt lịch**, hãy gọi công cụ `book_appointment` với đầy đủ các chi tiết. Lưu ý rằng các thông tin 
   như `selected_hospital`, `selected_service`, `selected_specialization`, `selected_doctor`, `appointment_date`, và `display_slot_time` sẽ được tự động lấy trong hàm `book_appointment`.
   3. Cuối cùng, trình bày một thông báo xác nhận rõ ràng về cuộc hẹn đã đặt:

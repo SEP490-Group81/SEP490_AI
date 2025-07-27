@@ -29,7 +29,7 @@ Quy trình đặt lịch:
 1. hospital_suggestion_agent (nếu cần)
   + nếu người dùng đã chọn bệnh viện trước đó, chuyển qua **plan_agent** để thực hiện các bước đặt lịch.
 2. plan_agent
-  + sau khi người dùng xác nhận kế hoạch khám bệnh, chuyển qua **booking_agent** để thực hiện các bước cuối cùng.  
+  + sau khi người dùng xác nhận kế hoạch khám hoàn chỉnh, chuyển qua **booking_agent** để thực hiện các bước cuối cùng trong đặt lịch.  
 3. booking_agent  
 
 Người dùng hiện tại:
