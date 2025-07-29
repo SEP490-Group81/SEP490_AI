@@ -12,7 +12,8 @@ BOOKING_AGENT_INSTR = """
     • {selected_timeline} (Ngày, giờ đặt lịch cụ thể)
 
 - Ngược lại, nếu tất cả thông tin trên đã đầy đủ, hãy tiến hành các bước sau:
-  1. Gọi công cụ `get_time_appoint` để lấy thông tin lịch khám bệnh của bệnh nhân (Bao gồm appointment_date, display_slot_time, slot_time).
+  1. Gọi công cụ `get_time_appoint` với các tham số như sau:
+      `get_time_appoint(timeline_list={timeline_list}, selected_timeline={selected_timeline})`
   2. **Chờ công cụ `get_time_appoint` gọi xong** rồi mới gọi công cụ `fetch_patient_profile` để truy xuất thông tin cá nhân của bệnh nhân.
   3. **Sau khi gọi công cụ `fetch_patient_profile` và có thông tin cá nhân của bệnh nhân được lưu trong state, hãy định dạng và hiển thị thông tin này cho người dùng dưới dạng một form để họ xác nhận.** Dưới đây là cách bạn nên cấu trúc thông báo:
       ```
@@ -53,6 +54,6 @@ BOOKING_AGENT_INSTR = """
      (Lưu ý: Với **Chuyên Khoa** và **Bác sĩ** chỉ hiển thị khi dịch vụ đặt khám là đặt khám bác sĩ, chuyên gia hoặc đặt khám chuyên khoa)  
 
 **Quan trọng:** Luôn **chờ đợi sự xác nhận từ người dùng ở mỗi bước** trước khi tiếp tục.
-Bạn chỉ được phép sử dụng các công cụ `fetch_patient_profile`,`get_time_appoint` ,`book_appointment`.
+Bạn chỉ được phép sử dụng các công cụ `fetch_patient_profile`, `book_appointment`, `get_time_appoint`.
 Thời gian hiện tại: {_time}
 """
