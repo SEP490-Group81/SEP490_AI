@@ -50,36 +50,34 @@ def fetch_patient_profile(
         print("Failed to fetch patient profile.")
         return None
 
-def get_time_appoint(tool_context: Optional[ToolContext] = None):
-    time_list = tool_context.state.get("timeline_list") if tool_context else None
-    selected_timeline_id = tool_context.state.get("selected_timeline")
+def get_time_appoint(timeline_list: Dict[str, Any], selected_timeline: int, tool_context: Optional[ToolContext] = None):
     appointment_date = None
     slot_time_work = None
     display_slot_time = None
     slot_time = None
-    if time_list and "schedules" in time_list and selected_timeline_id is not None:
-        for schedule in time_list["schedules"]:
-            if schedule.get("id") == selected_timeline_id:
+    if timeline_list and "schedules" in timeline_list and selected_timeline is not None:
+        for schedule in timeline_list["schedules"]:
+            if schedule.get("id") == selected_timeline:
                 appointment_date = schedule.get("workDate")
                 slot_time_work = schedule.get("startTime")
                 tool_context.state["appointment_date"] = appointment_date
                 break
-    # Determine slot_time based on selected_slot name
-    if slot_time_work == "7:30 - 11:30":
+    
+    # Determine slot_time based on slot_time_work
+    if slot_time_work == "07:30:00": # Use the exact string from your data
         slot_time = 1
         display_slot_time = "Ca sáng 7h30"
-        tool_context.state["display_slot_time"] = display_slot_time
-        tool_context.state["slot_time"] = slot_time
-    elif slot_time_work == "12h30 - 16:30": 
+    elif slot_time_work == "12:30:00": # Use the exact string from your data
         slot_time = 2
         display_slot_time = "Ca chiều 12h30"
-        tool_context.state["display_slot_time"] = display_slot_time
-        tool_context.state["slot_time"] = slot_time
     else:
-        slot_time = None 
+        slot_time = None
     
-    return appointment_date, display_slot_time, slot_time
+    tool_context.state["display_slot_time"] = display_slot_time
+    tool_context.state["slot_time"] = slot_time
 
+    return appointment_date, display_slot_time, slot_time
+    
 
 def book_appointment(
     hospital_id: int,
