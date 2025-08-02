@@ -11,8 +11,8 @@ requests = "^2.32.3"
 google-auth = "^2.36.0"
 google-genai = "^1.16.1"
 google-cloud-storage = "^2.19.0"
-google-adk = "^1.0.0"
-google-cloud-aiplatform = { extras = ["adk", "agent-engines"], version = "^1.93.0" }
+google-adk = "^1.5.0"
+google-cloud-aiplatform = {extras = ["adk", "agent-engines"], version = "^1.105.0"}
 python-dateutil = "^2.9.0.post0"
 pyjwt = "^2.10.1"
 pydantic-settings = "^2.10.1"
@@ -20,6 +20,8 @@ tabulate = "^0.9.0"
 deprecated = "^1.2.18"
 llama-index = "^0.12.52"
 isodate = "^0.7.2"
+uvicorn = {extras = ["standard"], version = "^0.35.0"}
+fastapi = "^0.116.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
@@ -38,6 +40,11 @@ optional = true
 absl-py = "^2.2.1"
 cloudpickle = "^3.1.1"
 flake8-pyproject = "^1.2.3"
+
+[tool.poetry.scripts]
+hospital-booking-agent = "hospital_booking_agent:app"
+deploy-remote = "deployment.remote:main"
+cleanup = "deployment.cleanup:cleanup_deployment"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

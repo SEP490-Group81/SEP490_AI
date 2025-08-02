@@ -6,3 +6,4 @@ HOSPITALS_API = "https://sep490-dabs-gsdjgbfbdgd8gkbb.eastasia-01.azurewebsites.
 PATIENT_API = "https://sep490-dabs-gsdjgbfbdgd8gkbb.eastasia-01.azurewebsites.net/api/v1/user"
 #Booking an Appointment (METHOD POST)
 BOOKING_API = "https://sep490-dabs-gsdjgbfbdgd8gkbb.eastasia-01.azurewebsites.net/api/v1/appointments/book"
+API_BASE_URL = "https://sep490-dabs-gsdjgbfbdgd8gkbb.eastasia-01.azurewebsites.net/api/v1"
