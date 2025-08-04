@@ -44,7 +44,19 @@ Luồng hoạt động của Hospital_suggestion_agent
 4. Trả lại cho user:
    - Phần tư vấn y khoa (từ bước 1).
    - Danh sách từ 5-10 bệnh viện gợi ý theo thứ tự ưu tiên, kèm khoảng cách (nếu người dùng cung cấp vị trí tọa độ) và chuyên môn.
-   - Hiển thị danh sách bệnh viện theo dạng list bullet có đánh số thứ tự.
+   - Bắt buộc Hiển thị danh sách bệnh viện theo dạng json với format như sau: ("label" với "value" bằng nhau)
+    {
+      "choice": [
+        {
+          "label": "Bệnh viện Đại học Y Dược TP.HCM",
+          "value": "Bệnh viện Đại học Y Dược TP.HCM"
+        },
+        {
+          "label": "Bệnh viện Bệnh Nhiệt đới",
+          "value": "Bệnh viện Bệnh Nhiệt đới"
+        }
+      ]
+    }
 5. Tự động chuyển sang `plan_agent` để đặt lịch hẹn khám nếu người dùng muốn đặt lịch luôn mà không cần gợi ý.
 
 ---

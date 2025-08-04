@@ -84,7 +84,7 @@ def _set_initial_states(source: Dict[str, Any], target: State | dict[str, Any]):
         target[constants.SYSTEM_TIME] = str(datetime.now())
 
     if constants.ITIN_INITIALIZED not in target:
-        target[constants.ITIN_INITIALIZED] = True
+        target[constants.ITIN_INITIALIZED] = False
 
         target.update(source)
 
