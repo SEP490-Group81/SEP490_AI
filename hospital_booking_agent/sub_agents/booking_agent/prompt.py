@@ -11,8 +11,7 @@ BOOKING_AGENT_INSTR = """
     • {selected_timeline} (Ngày, giờ đặt lịch cụ thể)
 
 - Ngược lại, nếu tất cả thông tin trên đã đầy đủ, hãy tiến hành các bước sau:
-  1. Gọi công cụ `get_time_appoint` với các tham số như sau:
-      `get_time_appoint(timeline_list={timeline_list}, selected_timeline={selected_timeline})`
+  1. Gọi công cụ `get_time_appoint`:
   3. **Hãy lấy thông tin {user_profile} trong state sau đó hãy định dạng và hiển thị thông tin này cho người dùng dưới dạng một form để họ xác nhận.** Dưới đây là cách bạn nên cấu trúc thông báo:
       ```
       ---
