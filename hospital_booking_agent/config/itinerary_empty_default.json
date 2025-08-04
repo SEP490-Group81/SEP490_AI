@@ -22,7 +22,6 @@
     "timeline_list": "",
     "appointment_date":"",
     "display_slot_time":"",
-    "slot_time":"",
-    "patient_token":""
+    "slot_time":""
     }
 }
