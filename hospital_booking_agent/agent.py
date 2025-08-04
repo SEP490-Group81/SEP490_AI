@@ -4,6 +4,7 @@ from hospital_booking_agent.sub_agents.booking_agent.agent import booking_agent
 from hospital_booking_agent.sub_agents.hospital_suggestion_agent.agent import hosptal_suggestion_agent
 from hospital_booking_agent.sub_agents.plan_agent.agent import plan_agent
 from hospital_booking_agent.tools.memory import _load_precreated_itinerary
+from hospital_booking_agent.tools.bookings import fetch_patient_profile
 
 root_agent = Agent(
     model="gemini-2.0-flash-001",
@@ -15,5 +16,6 @@ root_agent = Agent(
         plan_agent,
         booking_agent
     ],
-    before_agent_callback=_load_precreated_itinerary
+    before_agent_callback=_load_precreated_itinerary,
+    after_agent_callback=fetch_patient_profile
 )

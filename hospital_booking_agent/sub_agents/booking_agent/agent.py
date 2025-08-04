@@ -13,7 +13,6 @@ booking_agent = Agent(
     description="A Doctor Booking Appointment Assistant that finalizes the booking process.",
     instruction=prompt.BOOKING_AGENT_INSTR,
     tools=[
-        fetch_patient_profile,
         get_time_appoint,
         book_appointment
     ],

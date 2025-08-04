@@ -2,17 +2,20 @@ from typing import Optional
 from hospital_booking_agent.tools.api_tools import get_patient_profile, create_appointment
 from hospital_booking_agent.sub_agents.booking_agent.token_test import *
 from google.adk.tools import ToolContext
+from google.adk.agents.callback_context import CallbackContext
 
 """bookings is tool for booking_agent"""
 
 #Hàm lấy Patient Profile
 def fetch_patient_profile(
-        # patient_id: str, 
-        # patient_token: str,
-        tool_context: Optional[ToolContext] = None):
-    patient_token = login_test()
+        callback_context: CallbackContext):
+    # patient_token = login_test()
+    patient_token = callback_context.state["patient_token"]
+    if not patient_token:
+        raise ValueError("'patient_token' is missing in state. Cannot fetch patient profile.")
+    
     patient_id = decode_jwt_token(patient_token)
-    tool_context.state["patient_token"] = patient_token
+    callback_context.state["patient_token"]  = patient_token
     profile_response = get_patient_profile(patient_id, patient_token)
 
     if profile_response and profile_response.get("success"):
@@ -39,16 +42,10 @@ def fetch_patient_profile(
             "address": full_address
         }
 
-        if tool_context:
-            tool_context.state["user_profile"] = user_profile
-            print("Patient profile saved to tool_context.state:", tool_context.state["user_profile"])
-        else:
-            print("ToolContext not provided, profile not saved to state.")
-            
-        return profile_response
+        callback_context.state["user_profile"] = user_profile
     else:
         print("Failed to fetch patient profile.")
-        return None
+        raise Exception("Failed to fetch patient profile from API.")
 
 def get_time_appoint(timeline_list: Dict[str, Any], selected_timeline: int, tool_context: Optional[ToolContext] = None):
     appointment_date = None
