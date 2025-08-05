@@ -14,10 +14,10 @@ def fetch_patient_profile(
         return None
     
     callback_context.state[constants.ITIN_INITIALIZED] = True
-    patient_token = login_test()
-    # patient_token = callback_context.state["patient_token"]
-    # if not patient_token:
-    #     raise ValueError("'patient_token' is missing in state. Cannot fetch patient profile.")
+    # patient_token = login_test()
+    patient_token = callback_context.state["patient_token"]
+    if not patient_token:
+        raise ValueError("'patient_token' is missing in state. Cannot fetch patient profile.")
     
     patient_id = decode_jwt_token(patient_token)
     callback_context.state["patient_token"]  = patient_token
