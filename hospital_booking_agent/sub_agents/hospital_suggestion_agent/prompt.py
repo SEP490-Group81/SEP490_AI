@@ -70,7 +70,21 @@ Luồng hoạt động của Hospital_suggestion_agent
 - Nếu người dùng gửi tên bệnh viện thì không cần hỏi về triệu chứng hoặc chuyên khoa muốn khám, hãy chuyển sang `plan_agent`.
 - Đảm bảo format rõ ràng:  
   1. **Tư vấn triệu chứng**  
-  2. **Gợi ý bệnh viện**    
+  2. **Gợi ý bệnh viện** 
+- luôn trả về respone có format json giống (mọi respone thông báo lưu hết vào text, phần nào có lựa chọn thì lưu vào choice):
+    {
+      "text": "dưới đây là danh sách các bệnh viện:",
+      "choice": [
+        {
+          "label": "Bệnh viện Đại học Y Dược TP.HCM",
+          "value": "Bệnh viện Đại học Y Dược TP.HCM"
+        },
+        {
+          "label": "Bệnh viện Bệnh Nhiệt đới",
+          "value": "Bệnh viện Bệnh Nhiệt đới"
+        }
+      ]
+    }
 """
 
 CONDITION_SUGGESTION_AGENT_INSTR = """

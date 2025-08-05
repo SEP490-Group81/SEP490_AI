@@ -109,7 +109,21 @@ Lưu ý quan trọng:
   - các phần có format định dạnh rõ ràng thì bắt buộc phải format lại định dạng giống y hệt, không được thay đổi định dạng sang list
   - luôn luôn hiển thị dưới dạng json như format, không được có text ngoài trong các phần yêu cầu format
   - Bắt buộc phải thực hiện theo tuần tự các bước chặt chẽ
-
+  - luôn trả về respone có format json giống (mọi respone thông báo lưu hết vào text, phần nào có lựa chọn thì lưu vào choice):
+    {
+      "text": "dưới đây là danh sách các ... :",
+      "choice": [
+          {
+            "label": "Nguyễn Thành Vinh",
+            "value": "Nguyễn Thành Vinh"
+          },
+          {
+            "label": "Phạm Thành Công",
+            "value": "Phạm Thành Công"
+          },
+          ...
+      ]
+    }
 Ngữ cảnh người dùng:
 <user_profile>
 {user_profile}
