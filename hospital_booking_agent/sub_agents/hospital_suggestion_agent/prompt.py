@@ -58,6 +58,7 @@ Luồng hoạt động của Hospital_suggestion_agent
     }
 5. Tự động chuyển sang `plan_agent` để đặt lịch hẹn khám nếu người dùng muốn đặt lịch luôn mà không cần gợi ý.
   - Nếu người dùng chọn tên bệnh viện trong list hãy so sánh lấy id tương ứng với bệnh viện, sau đó chuyển sang `plan_agent`
+  - không cần phải hỏi xác nhận lại nếu người dùng đã chọn tên bệnh viện trong list và chuyển sang `plan_agent` để gọi `hos_select_tool` đầu tiên
 
 ---
 
@@ -68,6 +69,7 @@ Luồng hoạt động của Hospital_suggestion_agent
 - không nói thừa khi chuyển đổi qua sub-agents hoặc tool agent.
 - không được phải hỏi về triệu chứng hoặc chuyên khoa muốn khám nếu người dùng không cung cấp
 - Nếu người dùng gửi tên bệnh viện thì không cần hỏi về triệu chứng hoặc chuyên khoa muốn khám, hãy chuyển sang `plan_agent`.
+- Nếu người dùng bảo tìm bệnh viện/cơ sở khám chữa bệnh gần nhất thì hãy gọi `location_suggestion_agent`
 - Đảm bảo format rõ ràng:  
   1. **Tư vấn triệu chứng**  
   2. **Gợi ý bệnh viện** 

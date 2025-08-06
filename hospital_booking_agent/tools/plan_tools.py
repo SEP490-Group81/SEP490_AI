@@ -164,8 +164,8 @@ def get_timeline_list(date_from: str, date_to: str, tool_context: Optional[ToolC
     Trả về danh sách các khung giờ khám của bác sĩ trong khoảng thời gian nhất định.
 
     Args:
-        date_from: là chỉ số chứa thông tin về ngày bắt đầu để lọc khung giờ khám (YYYY‑MM‑DD format).
-        date_to: là chỉ số chứa thông tin về ngày kết thúc để lọc khung giờ khám (YYYY‑MM‑DD format).
+        date_from: là chỉ số chứa thông tin về ngày bắt đầu để lọc khung giờ khám (ISO 8601 format yyyy-mm-ddT00:00:00Z vd: 2025-06-08T00:00:00Z)
+        date_to: là chỉ số chứa thông tin về ngày kết thúc để lọc khung giờ khám (ISO 8601 format yyyy-mm-ddT00:00:00Z vd: 2025-06-08T00:00:00Z)
         tool_context: là ngữ cảnh công cụ ADK, chứa thông tin về bệnh viện, chuyên khoa và bác sĩ đã chọn.
 
     Returns:
@@ -179,18 +179,22 @@ def get_timeline_list(date_from: str, date_to: str, tool_context: Optional[ToolC
         raise ValueError("Missing 'selected_hospital' in tool_context.state")
     print(f"DEBUG: hospital_id = {hospital_id}")
 
-    specialization_id = int(tool_context.state.get("selected_specialization"))
+    specialization_id_str = tool_context.state.get("selected_specialization")
+    specialization_id = int(specialization_id_str) if specialization_id_str else None
     print(f"DEBUG: specialization_id = {specialization_id}")
 
-    doctor_id = int(tool_context.state.get("selected_doctor"))
+    doctor_id_str = tool_context.state.get("selected_doctor")
+    doctor_id = int(doctor_id_str) if doctor_id_str else None
     print(f"DEBUG: doctor_id = {doctor_id}")
 
     payload = {
-        "doctorIds": [doctor_id] or [],
-        "specializationId": specialization_id or None,
-        "dateFrom": parse_to_iso_date(date_from) or datetime.now(timezone.utc),
-        "dateTo": parse_to_iso_date(date_to) or datetime.now(timezone.utc) + timedelta(days=30)
+        "doctorIds": [doctor_id] if doctor_id is not None else [],
+        "dateFrom": date_from or datetime.now(timezone.utc),
+        "dateTo": date_to or datetime.now(timezone.utc) + timedelta(days=7)
     }
+    if specialization_id is not None:
+        payload["specializationId"] = specialization_id
+
     print(f"DEBUG: payload = {payload}")
     url = f"{API_BASE_URL}/schedules/{hospital_id}/hospital/specialization"
     resp = requests.post(url, json=payload, headers=HEADERS, verify=False)
@@ -199,19 +203,3 @@ def get_timeline_list(date_from: str, date_to: str, tool_context: Optional[ToolC
     print(f"DEBUG: timeline result = {data}")
     tool_context.state["timeline_list"] = data
     return data
-    
-
-def parse_to_iso_date(user_input: str) -> str:
-    """
-    Nhận chuỗi đầu vào là ngày (ví dụ '24/7/2025', 'July 24 2025').
-    Trả về ISO timestamp: YYYY‑MM‑DDT00:00:00.000Z (không quan tâm giờ).
-    """
-    dt = parser.parse(user_input, dayfirst=True,
-                      default=datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0))
-    dt = datetime.combine(dt.date(), time(0, 0, 0, tzinfo=dt.tzinfo))
-    if dt.tzinfo is None:
-        from dateutil import tz
-        dt = dt.replace(tzinfo=tz.UTC)
-    # Xuất ISO có Z
-    iso_str = dt.isoformat(timespec='milliseconds').replace('+00:00', 'Z')
-    return iso_str
