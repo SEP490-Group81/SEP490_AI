@@ -1,4 +1,4 @@
-import logging
+https://capstone-project-user-production.up.railway.app/import logging
 from functools import lru_cache
 from typing import List
 
@@ -18,7 +18,7 @@ from google.adk.cli.fast_api import get_fast_api_app
 class Settings(BaseSettings):
     AGENT_PATH: str = "./hospital_booking_agent"
     SESSION_DB_URL: str = "sqlite:///./sessions.db"
-    CORS_ALLOW_ORIGINS: str = "http://localhost:3000,http://127.0.0.1:3000,http://localhost:8080,http://127.0.0.1:8080"
+    CORS_ALLOW_ORIGINS: str = "http://localhost:3000,http://127.0.0.1:3000,http://localhost:8080,http://127.0.0.1:8080,https://capstone-project-user-production.up.railway.app:3000"
     PORT: int = 8080
     ENV: str = "development"
     ENABLE_DOCS: bool = True
