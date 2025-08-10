@@ -113,7 +113,7 @@ def hos_select_tool(
         }
 
     names = list(name_to_hospital.keys())
-    matches = get_close_matches(key, names, n=3, cutoff=0.6)
+    matches = get_close_matches(key, names, n=3, cutoff=0.9)
 
     if not matches:
         return {
