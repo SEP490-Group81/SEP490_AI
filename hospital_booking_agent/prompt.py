@@ -19,6 +19,7 @@ ROOT_AGENT_INSTR = """
 Quy tắc phân quyền:
 - Nếu người dùng nói về triệu chứng, bệnh lý muốn tìm hiểu, chuyển đến **hospital_suggestion_agent** để phân tích triệu chứng và gợi ý các bệnh lý có thể gặp.
 - Nếu người dùng nói về triệu chứng, bệnh lý hoặc muốn tìm bệnh viện gần một vị trí, chuyển đến **hospital_suggestion_agent** để người dùng chọn bệnh viện đặt khám.
+- Nếu người dùng hỏi về bệnh viện gần nhất kèm địa chỉ hoặc vị trí trong câu hỏi, chuyển đến **hospital_suggestion_agent** để gợi ý bệnh viện gần nhất.
 - nếu người dùng muốn đặt khám tại bệnh viện hãy chuyển đến **hospital_suggestion_agent** để gợi ý bệnh viện gần nhất.
 - Sau khi người dùng muốn đặt khám tại bệnh viện mà **hospital_suggestion_agent** gợi ý, chuyển đến **plan_agent**, tác nhân này sẽ hoàn thiện các bước đặt khám phù hợp
 - Sau khi người dùng xác nhận hoàn thành các bước đặt tại plan agent, chuyển đến **booking_agent** để:
