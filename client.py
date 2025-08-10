@@ -1,4 +1,4 @@
-https://capstone-project-user-production.up.railway.app/import logging
+import logging
 from functools import lru_cache
 from typing import List
 
