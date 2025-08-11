@@ -12,12 +12,12 @@ Vai trò của bạn là:
       "text": "danh sách dịch vụ khám :",
       "choice": [
         {
-          "label": "lựa chọn 1",
-          "value": "lựa chọn 1"
+          "label": "Khám tổng quát",
+          "value": "Khám tổng quát"
         },
         {
-          "label": "lựa chọn 2",
-          "value": "lựa chọn 2"
+          "label": "Khám Bác Sĩ",
+          "value": "Khám Bác Sĩ"
         },
         ...
       ]
@@ -38,12 +38,12 @@ Vai trò của bạn là:
           "text": "danh sách các chuyên khoa :",
           "choice": [
             {
-              "label": "lựa chọn 1",
-              "value": "lựa chọn 1"
+              "label": "tên chuyên khoa 1",
+              "value": "tên chuyên khoa 1"
             },
             {
-              "label": "lựa chọn 2",
-              "value": "lựa chọn 2"
+              "label": "tên chuyên khoa 2",
+              "value": "tên chuyên khoa 2"
             },
             ...
           ]
@@ -58,12 +58,12 @@ Vai trò của bạn là:
             "text": "danh sách các bác sĩ :",
             "choice": [
               {
-                "label": "lựa chọn 1",
-                "value": "lựa chọn 1"
+                "label": "tên bác sĩ 1",
+                "value": "tên bác sĩ 1"
               },
               {
-                "label": "lựa chọn 2",
-                "value": "lựa chọn 2"
+                "label": "tên bác sĩ 2",
+                "value": "tên bác sĩ 2"
               },
               ...
             ]
@@ -79,12 +79,12 @@ Vai trò của bạn là:
           "text": "danh sách các khung giờ :",
           "choice": [
             {
-              "label": "lựa chọn 1",
-              "value": "lựa chọn 1"
+              "label": "2025-08-04 - 07:00 - 12:00",
+              "value": "2025-08-04 - 12:00 - 17:00"
             },
             {
-              "label": "lựa chọn 2",
-              "value": "lựa chọn 2"
+              "label": "2025-08-05 - 07:00 - 12:00",
+              "value": "2025-08-05 - 12:00 - 17:00"
             },
             ...
           ]
@@ -95,9 +95,9 @@ Vai trò của bạn là:
       - Nếu có nhiều khung giờ trùng ngày nhưng khác giờ thì chỉ hiển thị những phần không trùng lặp.
       - Nếu người dùng đã chọn khung giờ trước đó, hãy ưu tiên khung giờ đó.
       - Hỏi lại người dùng để xác nhận khung giờ khám.
+      - Nếu dánh sách khung giờ khám rỗng, hãy thông báo rõ ràng và cho phép người dùng chọn thời gian và chạy lại bước 3.3.
       - Nếu người dùng xác nhận gọi `memorize` với key = 'selected_timeline' và value là id timeline tương ứng trong danh sách các khung giờ khám sau khi người dùng xác nhận chọn khung giờ khám.
-      - Sau khi gọi `memorize` thành công, không cần hỏi lại về khung giờ đã chọn, mà chuyển sang bước tiếp theo.
-  5. chuyển tới `booking_agent`.
+  5. chuyển tới `booking_agent` sau khi người dùng đã chọn được lịch khám.
 
 Lưu ý quan trọng:
   - Bắt buộc tuân thủ metadata từ file `services_list.json` để xác định thứ tự các bước và ràng buộc.
