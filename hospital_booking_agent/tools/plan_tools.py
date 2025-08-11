@@ -55,6 +55,8 @@ def get_services_list(tool_context: Optional[ToolContext] = None):
 
         step_codes = []
         for s in steps_data:
+            if not s.get("status", False):
+                continue
             step_type = s["steps"]["stepType"]
             step_code = STEP_TYPE_CODE_MAP.get(step_type)
             if step_code:
