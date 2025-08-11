@@ -14,8 +14,8 @@ def fetch_patient_profile(
         return None
     
     callback_context.state[constants.ITIN_INITIALIZED] = True
-    # patient_token = login_test()
-    patient_token = callback_context.state["patient_token"]
+    patient_token = login_test()
+    # patient_token = callback_context.state["patient_token"]
     if not patient_token:
         raise ValueError("'patient_token' is missing in state. Cannot fetch patient profile.")
     
@@ -96,6 +96,7 @@ def book_appointment(
     payment_method: int,
     note: str,
     token: str): 
+    print("DEBUG: call book_appointment 1")
     data = create_appointment(hospital_id,service_id,specialization_id,doctor_id,appointment_date,slot_time,payment_method,note,token)
     return data
 
