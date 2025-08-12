@@ -9,14 +9,16 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.openapi.docs import get_swagger_ui_html, get_redoc_html
 from fastapi.openapi.utils import get_openapi
-
+from fastapi.responses import JSONResponse
+from fastapi import Request
+import traceback
 from google.adk.cli.fast_api import get_fast_api_app
 
 
 class Settings(BaseSettings):
     AGENT_PATH: str = "./hospital_booking_agent"
     SESSION_DB_URL: str = "sqlite:///./sessions.db"
-    CORS_ALLOW_ORIGINS: str = "http://localhost:3000,http://127.0.0.1:3000,http://localhost:8080,http://127.0.0.1:8080"
+    CORS_ALLOW_ORIGINS: str = "http://localhost:3000,http://127.0.0.1:3000,http://localhost:8080,http://127.0.0.1:8080,https://capstone-project-user-production.up.railway.app:3000"
     PORT: int = 8080
     ENV: str = "development"
     ENABLE_DOCS: bool = True
@@ -49,6 +51,18 @@ def create_app(settings: Settings) -> FastAPI:
         allow_origins=cors_list,
         web=False,
     )
+
+    @app.exception_handler(Exception)
+    async def all_exception_handler(request: Request, exc: Exception):
+        # Lấy message và full stack trace (tuỳ chọn)
+        tb = traceback.format_exc()
+        return JSONResponse(
+            status_code=500,
+            content={
+                "detail": str(exc),
+                "trace": tb.splitlines()
+            },
+        )
 
     # Cấu hình CORS middleware
     app.add_middleware(
@@ -106,7 +120,7 @@ def main():
     # Tạo FastAPI app
     app = create_app(settings)
 
-    uvicorn.run(app, host="0.0.0.0", port=settings.PORT)
+    uvicorn.run(app, host="localhost", port=settings.PORT)
 
 if __name__ == "__main__":
     main()

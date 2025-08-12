@@ -15,6 +15,7 @@
 """Constants used as keys into ADK's session state."""
 
 SYSTEM_TIME = "_time"
+MONTH_DAY_TIME = "_month_day_time"
 ITIN_INITIALIZED = "_itin_initialized"
 
 ITIN_KEY = "itinerary"

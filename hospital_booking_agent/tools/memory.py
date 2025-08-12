@@ -1,6 +1,6 @@
 """The 'memorize' tool for several agents to affect session states."""
 
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import json
 import os
 from typing import Dict, Any
@@ -81,10 +81,12 @@ def _set_initial_states(source: Dict[str, Any], target: State | dict[str, Any]):
         target: The session state object to insert into.
     """
     if constants.SYSTEM_TIME not in target:
-        target[constants.SYSTEM_TIME] = str(datetime.now())
+        target[constants.SYSTEM_TIME] = str(datetime.now(timezone.utc).replace(microsecond=0).isoformat())
+        xDayLater = datetime.now(timezone.utc).replace(microsecond=0) + timedelta(weeks=4)
+        target[constants.MONTH_DAY_TIME] = str(xDayLater.isoformat())
 
     if constants.ITIN_INITIALIZED not in target:
-        target[constants.ITIN_INITIALIZED] = True
+        target[constants.ITIN_INITIALIZED] = False
 
         target.update(source)
 

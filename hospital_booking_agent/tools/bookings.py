@@ -3,14 +3,19 @@ from hospital_booking_agent.tools.api_tools import get_patient_profile, create_a
 from hospital_booking_agent.sub_agents.booking_agent.token_test import *
 from google.adk.tools import ToolContext
 from google.adk.agents.callback_context import CallbackContext
+from hospital_booking_agent.shared_libraries import constants
 
 """bookings is tool for booking_agent"""
 
 #Hàm lấy Patient Profile
 def fetch_patient_profile(
         callback_context: CallbackContext):
-    # patient_token = login_test()
-    patient_token = callback_context.state["patient_token"]
+    if callback_context.state.get(constants.ITIN_INITIALIZED) is True:
+        return None
+    
+    callback_context.state[constants.ITIN_INITIALIZED] = True
+    patient_token = login_test()
+    # patient_token = callback_context.state["patient_token"]
     if not patient_token:
         raise ValueError("'patient_token' is missing in state. Cannot fetch patient profile.")
     
@@ -47,11 +52,16 @@ def fetch_patient_profile(
         print("Failed to fetch patient profile.")
         raise Exception("Failed to fetch patient profile from API.")
 
-def get_time_appoint(timeline_list: Dict[str, Any], selected_timeline: int, tool_context: Optional[ToolContext] = None):
+def get_time_appoint(tool_context: Optional[ToolContext] = None):
+    print("DEBUG: call get_time_appoint")
     appointment_date = None
     slot_time_work = None
     display_slot_time = None
     slot_time = None
+
+    timeline_list = tool_context.state["timeline_list"]
+    selected_timeline = tool_context.state["selected_timeline"]
+    
     if timeline_list and "schedules" in timeline_list and selected_timeline is not None:
         for schedule in timeline_list["schedules"]:
             if schedule.get("id") == selected_timeline:
@@ -59,7 +69,7 @@ def get_time_appoint(timeline_list: Dict[str, Any], selected_timeline: int, tool
                 slot_time_work = schedule.get("startTime")
                 tool_context.state["appointment_date"] = appointment_date
                 break
-    
+    print("DEBUG: call get_time_appoint 1")
     # Determine slot_time based on slot_time_work
     if slot_time_work == "07:30:00": # Use the exact string from your data
         slot_time = 1
@@ -72,7 +82,7 @@ def get_time_appoint(timeline_list: Dict[str, Any], selected_timeline: int, tool
     
     tool_context.state["display_slot_time"] = display_slot_time
     tool_context.state["slot_time"] = slot_time
-
+    print("DEBUG: call get_time_appoint 2")
     return appointment_date, display_slot_time, slot_time
     
 
@@ -86,6 +96,7 @@ def book_appointment(
     payment_method: int,
     note: str,
     token: str): 
+    print("DEBUG: call book_appointment 1")
     data = create_appointment(hospital_id,service_id,specialization_id,doctor_id,appointment_date,slot_time,payment_method,note,token)
     return data
 
