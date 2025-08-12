@@ -52,7 +52,7 @@ def fetch_patient_profile(
         print("Failed to fetch patient profile.")
         raise Exception("Failed to fetch patient profile from API.")
 
-def get_time_appoint(tool_context: Optional[ToolContext] = None):
+def get_time_appoint(timeline_list: Dict[str, Any], selected_timeline: int, tool_context: Optional[ToolContext] = None):
     print("DEBUG: call get_time_appoint")
     appointment_date = None
     slot_time_work = None
@@ -64,7 +64,7 @@ def get_time_appoint(tool_context: Optional[ToolContext] = None):
     
     if timeline_list and "schedules" in timeline_list and selected_timeline is not None:
         for schedule in timeline_list["schedules"]:
-            if schedule.get("id") == selected_timeline:
+            if str(schedule.get("id")) == selected_timeline:
                 appointment_date = schedule.get("workDate")
                 slot_time_work = schedule.get("startTime")
                 tool_context.state["appointment_date"] = appointment_date

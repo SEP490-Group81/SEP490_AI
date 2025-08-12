@@ -76,7 +76,7 @@ def create_appointment(
         "specializationId": specialization_id,
         "doctorId": doctor_id,
         "appointmentDate": appointment_date,
-        "slotTime": slot_time,
+        "bookingTime": slot_time,
         "paymentMethod": payment_method,
         "note": note
     }
