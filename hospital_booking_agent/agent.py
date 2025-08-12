@@ -5,7 +5,14 @@ from hospital_booking_agent.sub_agents.hospital_suggestion_agent.agent import ho
 from hospital_booking_agent.sub_agents.plan_agent.agent import plan_agent
 from hospital_booking_agent.tools.memory import _load_precreated_itinerary
 from hospital_booking_agent.tools.bookings import fetch_patient_profile
+import logging
 
+logging.basicConfig(
+    level=logging.DEBUG,
+    format="%(asctime)s %(name)s %(levelname)s: %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+)
+logging.getLogger("google.generativeai").setLevel(logging.DEBUG)
 root_agent = Agent(
     model="gemini-2.0-flash-001",
     name="hospital_booking_agent",
