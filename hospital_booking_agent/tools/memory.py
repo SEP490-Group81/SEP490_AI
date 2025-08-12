@@ -82,8 +82,8 @@ def _set_initial_states(source: Dict[str, Any], target: State | dict[str, Any]):
     """
     if constants.SYSTEM_TIME not in target:
         target[constants.SYSTEM_TIME] = str(datetime.now(timezone.utc).replace(microsecond=0).isoformat())
-        xDayLater = datetime.now(timezone.utc).replace(microsecond=0) + timedelta(days=7)
-        target[constants.SEVEN_DAY_TIME] = str(xDayLater.isoformat())
+        xDayLater = datetime.now(timezone.utc).replace(microsecond=0) + timedelta(weeks=4)
+        target[constants.MONTH_DAY_TIME] = str(xDayLater.isoformat())
 
     if constants.ITIN_INITIALIZED not in target:
         target[constants.ITIN_INITIALIZED] = False
