@@ -40,6 +40,7 @@ Luồng hoạt động của Hospital_suggestion_agent
           "choice": []
         }
    - Danh sách từ 5-10 bệnh viện gợi ý theo thứ tự ưu tiên, kèm chuyên môn.
+     + không gửi kèm địa chỉ bệnh viện, chỉ gửi tên bệnh viện trong json `choice` để người dùng chọn.
      + luôn luôn trả về respone có format json cho mọi message gửi người dùng  như sau (mọi respone thông báo lưu hết vào text, phần nào có lựa chọn thì lưu vào choice nếu có):
       {
         "text": "Đây là danh sách các bệnh viện gần bạn: ",
