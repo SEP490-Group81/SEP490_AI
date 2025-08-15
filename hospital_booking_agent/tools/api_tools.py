@@ -1,5 +1,5 @@
 import requests
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 import json
 from hospital_booking_agent.shared_libraries.api_constants import *
 """API_Tools use for get data from API."""
@@ -53,8 +53,8 @@ def fetch_hospital_data(api_url: str) -> List[Dict[str, Any]]:
 def create_appointment(
     hospital_id: int,
     service_id: int,
-    specialization_id: int,
-    doctor_id: int,
+    specialization_id: Optional[int],
+    doctor_id: Optional[int],
     appointment_date: str,
     slot_time: int,
     payment_method: int,

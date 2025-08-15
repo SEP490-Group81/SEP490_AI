@@ -17,8 +17,8 @@ def login_test():
     }
 
     payload = {
-        "email": "lapthd2k3@gmail.com",
-        "password": "30012003"
+        "email": "patient@hostname.com",
+        "password": "SEP490@DABS"
     }
 
     try:
