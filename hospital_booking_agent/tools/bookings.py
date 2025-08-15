@@ -4,6 +4,8 @@ from hospital_booking_agent.sub_agents.booking_agent.token_test import *
 from google.adk.tools import ToolContext
 from google.adk.agents.callback_context import CallbackContext
 from hospital_booking_agent.shared_libraries import constants
+from datetime import datetime
+from typing import Dict, Any, Optional
 
 """bookings is tool for booking_agent"""
 
@@ -71,14 +73,19 @@ def get_time_appoint(timeline_list: Dict[str, Any], selected_timeline: int, tool
                 break
     print("DEBUG: call get_time_appoint 1")
     # Determine slot_time based on slot_time_work
-    if slot_time_work == "07:30:00": # Use the exact string from your data
-        slot_time = 1
-        display_slot_time = "Ca sáng 7h30"
-    elif slot_time_work == "12:30:00": # Use the exact string from your data
-        slot_time = 2
-        display_slot_time = "Ca chiều 12h30"
-    else:
-        slot_time = None
+    if slot_time_work:
+        try:
+            start_time = datetime.strptime(slot_time_work, "%H:%M:%S").time()
+            print(f"DEBUG: call start_time {start_time}")
+            if start_time.hour < 12:
+                slot_time = 1
+                display_slot_time = f"Ca sáng {start_time.strftime('%H:%M')}"
+            else:
+                slot_time = 2
+                display_slot_time = f"Ca chiều {start_time.strftime('%H:%M')}"
+                print(f"DEBUG: call slot_time {slot_time}") 
+        except ValueError:
+            print(f"WARNING: slot_time_work '{slot_time_work}' không hợp lệ")
     
     tool_context.state["display_slot_time"] = display_slot_time
     tool_context.state["slot_time"] = slot_time
