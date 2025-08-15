@@ -73,13 +73,17 @@ def create_appointment(
     payload = {
         "hospitalId": hospital_id,
         "serviceId": service_id,
-        "specializationId": specialization_id,
-        "doctorId": doctor_id,
         "appointmentDate": appointment_date,
         "bookingTime": slot_time,
         "paymentMethod": payment_method,
         "note": note
     }
+    
+    # Chỉ thêm vào nếu có giá trị
+    if specialization_id is not None:
+        payload["specializationId"] = specialization_id
+    if doctor_id is not None:
+        payload["doctorId"] = doctor_id
 
     print(f"Đang gọi API POST tạo cuộc hẹn tại: {endpoint} với dữ liệu: {json.dumps(payload, indent=2)}")
     try:
