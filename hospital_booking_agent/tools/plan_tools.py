@@ -12,19 +12,30 @@ config_file = agent_root / "config" / "services_list.json"
 API_BASE_URL = "https://sep490-dabs-gsdjgbfbdgd8gkbb.eastasia-01.azurewebsites.net/api/v1"
 JWT_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWRlbnRpZmllciI6IjEiLCJlbWFpbCI6ImFkbWluQGhvc3RuYW1lLmNvbSIsImZ1bGxOYW1lIjoiU3VwZXIgVXNlciIsIm5hbWUiOiJTdXBlciIsInN1cm5hbWUiOiJVc2VyIiwiaXBBZGRyZXNzIjoiMC4wLjAuMSIsImF2YXRhclVybCI6IiIsIm1vYmlsZXBob25lIjoiIiwiZXhwIjoxNzgxMjcwNDgzLCJpc3MiOiJodHRwczovL0JFLlNFUDQ5MC5uZXQiLCJhdWQiOiJCRS5TRVA0OTAifQ.kQIX9uvjN9UOPiBitp9JsO2DlPlFyIU4VTP1ZyM4k3Y"
 
-HEADERS = {
-    "Authorization": f"Bearer {JWT_TOKEN}",
-    "Content-Type": "application/json",
-    "Accept": "application/json"
-}
+def build_headers(tool_context: Optional[ToolContext] = None) -> Dict[str, str]:
+    jwt_token = None
+    if tool_context:
+        jwt_token = tool_context.state.get("patient_token")
+    if not jwt_token:
+        raise ValueError("JWT token not found in tool_context.state")
+    
+    return {
+        "Authorization": f"Bearer {jwt_token}",
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+    }
 
-def fetch_services(hospital_id: str) -> List[Dict[str, Any]]:
-    resp = requests.get(f"{API_BASE_URL}/hospitals/{hospital_id}/services", headers=HEADERS, verify=False)
+def fetch_services(hospital_id: str, tool_context: Optional[ToolContext] = None) -> List[Dict[str, Any]]:
+    print(f"DEBUG tool_context = {tool_context})") 
+    headers = build_headers(tool_context)
+    resp = requests.get(f"{API_BASE_URL}/hospitals/{hospital_id}/services", headers=headers, verify=False)
     resp.raise_for_status()
     return resp.json()
 
-def fetch_service_steps(service_id: int) -> List[Dict[str, Any]]:
-    resp = requests.get(f"{API_BASE_URL}/services/{service_id}/servicesteps", headers=HEADERS, verify=False)
+def fetch_service_steps(service_id: int, tool_context: Optional[ToolContext] = None) -> List[Dict[str, Any]]:
+    print(f"DEBUG tool_context = {tool_context})") 
+    headers = build_headers(tool_context)
+    resp = requests.get(f"{API_BASE_URL}/services/{service_id}/servicesteps", headers=headers, verify=False)
     resp.raise_for_status()
     return resp.json()
 
@@ -38,7 +49,8 @@ def get_services_list(tool_context: Optional[ToolContext] = None):
     }
 
     config: dict[str, dict] = {}
-    services = fetch_services(str(hospital_id))["result"]
+    print(f"DEBUG JWT_TOKEN = {tool_context.state.get("patient_token")})") 
+    services = fetch_services(str(hospital_id), tool_context)["result"]
 
     if not services:
         print(f"DEBUG: No services found for hospital ID {hospital_id}")
@@ -47,10 +59,9 @@ def get_services_list(tool_context: Optional[ToolContext] = None):
     print(f"DEBUG: services = {services})") 
 
     for svc in services:
-        print(f"DEBUG: svc = {svc} ({type(svc)})") 
         svc_id = svc["id"]
         svc_name = svc["name"]
-        steps_data = fetch_service_steps(svc_id)
+        steps_data = fetch_service_steps(svc_id, tool_context)
         steps_data.sort(key=lambda x: x["stepOrder"])
 
         step_codes = []
@@ -80,7 +91,8 @@ def get_specialization_by_hospital(tool_context: Optional[ToolContext] = None):
     if not hospital_id:
         raise ValueError("Missing 'selected_hospital' in tool_context.state")
     print(f"DEBUG: hospital_id = {hospital_id}")
-    resp = requests.get(f"{API_BASE_URL}/hospitals/{hospital_id}/specialization", headers=HEADERS, verify=False)
+    headers = build_headers(tool_context)
+    resp = requests.get(f"{API_BASE_URL}/hospitals/{hospital_id}/specialization", headers=headers, verify=False)
     resp.raise_for_status()
 
     data = resp.json()
@@ -115,12 +127,13 @@ def get_doctor_list(tool_context: Optional[ToolContext] = None)  -> List[Dict[st
     print(f"DEBUG: specialization_id = {specialization_id}")
 
     resp = {}
+    headers = build_headers(tool_context)
     if not specialization_id:
-        resp = requests.get(f"{API_BASE_URL}/doctors/by-hospital/{hospital_id}", headers=HEADERS, verify=False)
+        resp = requests.get(f"{API_BASE_URL}/doctors/by-hospital/{hospital_id}", headers=headers, verify=False)
         resp.raise_for_status()
 
     else:
-        resp = requests.get(f"{API_BASE_URL}/hospitals/{hospital_id}/doctors/by-specialization/{specialization_id}", headers=HEADERS, verify=False)
+        resp = requests.get(f"{API_BASE_URL}/hospitals/{hospital_id}/doctors/by-specialization/{specialization_id}", headers=headers, verify=False)
         resp.raise_for_status()
     
     data = resp.json()
@@ -198,8 +211,9 @@ def get_timeline_list(date_from: str, date_to: str, tool_context: Optional[ToolC
         payload["specializationId"] = specialization_id
 
     print(f"DEBUG: payload = {payload}")
+    headers = build_headers(tool_context)
     url = f"{API_BASE_URL}/schedules/{hospital_id}/hospital/specialization"
-    resp = requests.post(url, json=payload, headers=HEADERS, verify=False)
+    resp = requests.post(url, json=payload, headers=headers, verify=False)
     resp.raise_for_status()
     data = resp.json()
     print(f"DEBUG: timeline result = {data}")
