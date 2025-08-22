@@ -46,12 +46,12 @@ Luồng hoạt động của Hospital_suggestion_agent
         "text": "Đây là danh sách các bệnh viện gần bạn: ",
         "choice": [
           {
-            "label": "Bệnh viện Đại học Y Dược TP.HCM",
-            "value": "Bệnh viện Đại học Y Dược TP.HCM"
+            "label": "Bệnh viện DABS 1",
+            "value": "Bệnh viện DABS 1"
           },
           {
-            "label": "Bệnh viện Chợ Rẫy",
-            "value": "Bệnh viện Chợ Rẫy"
+            "label": "Bệnh viện DABS 2",
+            "value": "Bệnh viện DABS 2"
           },
           ...
         ]
